@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acelab Material Recommendations</title>
+    <style>
+        :root {
+            --bg: #f8f9fa;
+            --card: #ffffff;
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --text: #1f2937;
+            --muted: #6b7280;
+            --border: #e5e7eb;
+            --green: #059669;
+            --amber: #d97706;
+            --red: #dc2626;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+
+        /* Form */
+        .search-form {
+            margin-bottom: 2rem;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .hint {
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin: 0.5rem 0;
+        }
+
+        button[type="submit"] {
+            background: var(--primary);
+            color: #fff;
+            border: none;
+            padding: 0.65rem 1.5rem;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 0.5rem;
+        }
+
+        button[type="submit"]:hover {
+            background: var(--primary-hover);
+        }
+
+        /* Error */
+        .error {
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            color: var(--red);
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Cards */
+        .section-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--muted);
+            margin: 2rem 0 0.75rem;
+        }
+
+        .summary-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .rec-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .rec-header {
+            display: flex;
+            align-items: baseline;
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .rec-rank {
+            background: var(--primary);
+            color: #fff;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .rec-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .rec-supplier {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .rec-why {
+            margin: 0.5rem 0;
+        }
+
+        .rec-meta {
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+
+        .rec-meta span {
+            margin-right: 1rem;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #eff6ff;
+            color: var(--primary);
+            padding: 0.15rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin: 0.15rem 0.15rem 0.15rem 0;
+        }
+
+        .concern {
+            color: var(--amber);
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        .confidence {
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.15rem 0.5rem;
+            border-radius: 4px;
+        }
+
+        .conf-high {
+            background: #ecfdf5;
+            color: var(--green);
+        }
+
+        .conf-mid {
+            background: #fffbeb;
+            color: var(--amber);
+        }
+
+        .conf-low {
+            background: #fef2f2;
+            color: var(--red);
+        }
+
+        .gaps {
+            background: #fffbeb;
+            border: 1px solid #fde68a;
+            border-radius: 8px;
+            padding: 1rem 1.25rem;
+            margin-top: 1rem;
+        }
+
+        .gaps-title {
+            font-weight: 600;
+            color: var(--amber);
+            margin-bottom: 0.25rem;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+            color: var(--muted);
+        }
+
+        .loading.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🏗️ Acelab Material Recommendations</h1>
+        <p class="subtitle">AI-powered material search for architects and designers</p>
+
+        {% if error %}
+        <div class="error">{{ error }}</div>
+        {% endif %}
+
+        <form class="search-form" method="post" action="/recommend" id="searchForm">
+            <textarea name="query"
+                placeholder="Describe your project needs...&#10;&#10;Example: High-traffic hospital corridor that needs to meet infection control standards, LEED Silver minimum, and a calming aesthetic. Budget is mid-range.">{{ query or '' }}</textarea>
+            <p class="hint">Include details like space type, performance needs, certifications, aesthetics, and budget.
+            </p>
+            <button type="submit" id="submitBtn">Get Recommendations</button>
+        </form>
+
+        <div class="loading" id="loading">
+            ⏳ Analyzing your project and searching the Acelab catalog...<br>
+            <small>This typically takes 15-30 seconds.</small>
+        </div>
+
+        {% if response %}
+        <div class="section-title">Project Summary</div>
+        <div class="summary-card">{{ response.project_summary }}</div>
+
+        <div class="section-title">Recommendations ({{ response.recommendations|length }})</div>
+        {% for rec in response.recommendations %}
+        <div class="rec-card">
+            <div class="rec-header">
+                <div class="rec-rank">{{ rec.rank }}</div>
+                <div>
+                    <div class="rec-name">{{ rec.product_name }}</div>
+                    {% if rec.supplier %}
+                    <div class="rec-supplier">{{ rec.supplier }}</div>
+                    {% endif %}
+                </div>
+                <div style="margin-left:auto;">
+                    {% if rec.score >= 0.8 %}
+                    <span class="confidence conf-high">{{ "%.0f"|format(rec.score * 100) }}% fit</span>
+                    {% elif rec.score >= 0.6 %}
+                    <span class="confidence conf-mid">{{ "%.0f"|format(rec.score * 100) }}% fit</span>
+                    {% else %}
+                    <span class="confidence conf-low">{{ "%.0f"|format(rec.score * 100) }}% fit</span>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="rec-why">{{ rec.why_recommended }}</div>
+            {% if rec.relevant_certifications %}
+            <div style="margin-bottom:0.25rem;">
+                {% for cert in rec.relevant_certifications %}
+                <span class="tag">{{ cert }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if rec.relevant_materials %}
+            <div>
+                {% for mat in rec.relevant_materials %}
+                <span class="tag" style="background:#f0fdf4;color:#059669;">{{ mat }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if rec.potential_concerns %}
+            <div class="concern">⚠ {{ rec.potential_concerns }}</div>
+            {% endif %}
+        </div>
+        {% endfor %}
+
+        <div class="section-title">Search Strategy</div>
+        <div class="summary-card">{{ response.search_strategy_summary }}</div>
+
+        {% if response.gaps_and_caveats %}
+        <div class="gaps">
+            <div class="gaps-title">Recommended Next Steps</div>
+            {{ response.gaps_and_caveats }}
+        </div>
+        {% endif %}
+        {% endif %}
+    </div>
+
+    <script>
+        document.getElementById('searchForm').addEventListener('submit', function () {
+            document.getElementById('submitBtn').disabled = true;
+            document.getElementById('submitBtn').textContent = 'Searching...';
+            document.getElementById('loading').classList.add('active');
+        });
+    </script>
+</body>
+
+</html>
