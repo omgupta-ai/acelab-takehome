@@ -1,0 +1,3548 @@
+{
+  "summary": {
+    "runs": 25,
+    "ok": 25,
+    "failed": 0,
+    "avg_synthesis_grounding_rate": 1.0,
+    "avg_constraint_adherence_rate": 0.625,
+    "avg_category_recall_at_5": 0.513,
+    "constraint_applicable_count": 4,
+    "recall_applicable_count": 13,
+    "adversarial_runs": 2,
+    "adversarial_fabrication_count": 0,
+    "avg_elapsed_s": 26.389
+  },
+  "results": [
+    {
+      "id": "q001",
+      "query": "high-traffic hospital corridor, LEED Silver, mid-range budget",
+      "category": "healthcare",
+      "status": "ok",
+      "elapsed_s": 28.12,
+      "expected_attributes": {
+        "required_certifications": [
+          "FloorScore"
+        ],
+        "required_use_case": "high_traffic",
+        "preferred_materials": [
+          "vinyl",
+          "rubber"
+        ],
+        "environmental_constraints": [
+          "LEED"
+        ]
+      },
+      "response": {
+        "project_summary": "High-traffic hospital corridor flooring for LEED Silver project requiring durability, infection control, and mid-range budget compliance.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Symphonia",
+            "supplier": "Altro USA, Incorporated",
+            "product_id": "7e61cb36-f02b-411b-80fd-af505bf7dbd5",
+            "score": 0.92,
+            "why_recommended": "Altro is the leading healthcare flooring manufacturer with proven antimicrobial technology and slip-resistance specifically engineered for hospital environments. Symphonia delivers the infection control and durability required for high-traffic corridors while supporting LEED credits through low-emission formulations.",
+            "relevant_certifications": [
+              "FloorScore",
+              "GREENGUARD Gold Certified"
+            ],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Assurance III",
+            "supplier": "Mannington Commercial",
+            "product_id": "3814a5db-76e9-44df-aaab-1b98fcb496d8",
+            "score": 0.88,
+            "why_recommended": "Mannington's Assurance III resilient sheet flooring offers excellent durability for healthcare applications with proven performance in hospital corridors. The seamless installation reduces infection risk while meeting mid-range budget requirements and LEED compliance standards.",
+            "relevant_certifications": [
+              "FloorScore",
+              "332 Resilient Flooring Gold"
+            ],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Castle Gate 595A",
+            "supplier": "Mohawk Flooring",
+            "product_id": "3bc4a826-617c-42ad-a127-eb61c5240bfa",
+            "score": 0.85,
+            "why_recommended": "Mohawk's sheet vinyl provides reliable performance for healthcare corridors with strong commercial track record. The seamless surface supports infection control protocols while offering cost-effective durability for high-traffic areas and LEED point contributions.",
+            "relevant_certifications": [
+              "FloorScore"
+            ],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Inlaid Heterogeneous Sheet",
+            "supplier": "AHF Contract",
+            "product_id": "8b70fbe9-94f4-45e3-9dcd-2f7ddcb3d572",
+            "score": 0.82,
+            "why_recommended": "AHF's heterogeneous sheet construction provides through-pattern durability ideal for high-traffic hospital corridors. The inlaid design maintains appearance over time while offering budget-conscious pricing and healthcare-appropriate performance characteristics.",
+            "relevant_certifications": [
+              "FloorScore"
+            ],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "HL-155",
+            "supplier": "Pawling Corporation",
+            "product_id": "25b01578-15ee-45f2-83c5-eeef78382d81",
+            "score": 0.78,
+            "why_recommended": "Pawling's interlocking tile system offers modular installation advantages for phased hospital renovations. The tile format allows for easy replacement of damaged sections while maintaining infection control standards and supporting sustainable material practices.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Rubber Tile"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched healthcare flooring products, antimicrobial materials, LEED compliance certifications, and established commercial flooring manufacturers. Found strong options in sheet vinyl and rubber tile categories from proven healthcare suppliers including Altro, Mannington, and Mohawk.",
+        "gaps_and_caveats": "Request antimicrobial test data and slip-resistance ratings from Altro and Mannington representatives to verify healthcare corridor compliance. Obtain EPDs from top three suppliers to document LEED credit contributions for Silver certification."
+      },
+      "collected_summary": {
+        "products_count": 16,
+        "materials_count": 16,
+        "certifications_count": 13,
+        "companies_count": 16,
+        "taxonomies_count": 3,
+        "product_ids": [
+          "25b01578-15ee-45f2-83c5-eeef78382d81",
+          "ba501b29-c2ce-4ed5-a3fa-2f8b7bb04542",
+          "235926f8-64b8-4fb7-b77b-4e38f17b0c1e",
+          "f18f62f1-84b1-492f-b7d4-2f811f812dff",
+          "3bc4a826-617c-42ad-a127-eb61c5240bfa",
+          "8b70fbe9-94f4-45e3-9dcd-2f7ddcb3d572",
+          "7e61cb36-f02b-411b-80fd-af505bf7dbd5",
+          "3814a5db-76e9-44df-aaab-1b98fcb496d8",
+          "afff19ef-81f1-4696-9be8-564ae6a2d634",
+          "b2a7fff7-21d6-4b99-a15a-7b80999d1c97",
+          "48110818-cbcb-4e69-862a-71ac946bcbe9",
+          "59807ea5-8aa5-41f7-9291-50488e1aedf1",
+          "2570cc36-f06a-4a2d-914a-54b0857214a7",
+          "4bf92b02-317a-4e93-b458-513e9dd6c400",
+          "338cc88c-4bc0-4eb7-b110-ad184de22d2c",
+          "c9b8596b-5530-4bfa-85b9-8d36f6431201"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": true,
+        "required_certs": 1,
+        "matched_certs": 1,
+        "rate": 1.0,
+        "details": [
+          {
+            "cert": "floorscore",
+            "found": true
+          }
+        ]
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 2,
+        "recalled_count": 2,
+        "rate": 1.0,
+        "matched": [
+          "vinyl",
+          "rubber"
+        ],
+        "missed": []
+      }
+    },
+    {
+      "id": "q002",
+      "query": "operating room flooring with antimicrobial properties and seamless installation",
+      "category": "healthcare",
+      "status": "ok",
+      "elapsed_s": 42.73,
+      "expected_attributes": {
+        "required_use_case": "infection_control",
+        "preferred_materials": [
+          "sheet_vinyl",
+          "rubber"
+        ],
+        "preferred_features": [
+          "antimicrobial",
+          "seamless"
+        ]
+      },
+      "response": {
+        "project_summary": "Operating room flooring requiring antimicrobial properties, seamless installation, chemical resistance, and easy disinfection for critical healthcare environment.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Stonclad XPRESS Flooring",
+            "supplier": "Stonhard",
+            "product_id": "48013835-863e-4017-89ab-11151f87d902",
+            "score": 0.92,
+            "why_recommended": "Methyl methacrylate troweled flooring system specifically engineered for healthcare environments. Stonhard's proven track record in hospital flooring delivers seamless monolithic installation eliminating joints where bacteria can harbor. Chemical resistance handles aggressive disinfectants used in OR environments, while the smooth surface enables thorough cleaning protocols required for surgical suites.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Methyl Methacrylate"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Stonclad UF",
+            "supplier": "Stonhard",
+            "product_id": "d4c0e239-a721-4c0a-a118-8582788a1229",
+            "score": 0.89,
+            "why_recommended": "Polyurethane mortar flooring system offering exceptional chemical resistance and seamless installation critical for operating rooms. The urethane chemistry provides superior durability against repeated disinfection cycles while maintaining a non-porous surface that prevents bacterial growth. Stonhard's healthcare expertise ensures compliance with stringent OR requirements.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Polyurethane"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Stonclad UR",
+            "supplier": "Stonhard",
+            "product_id": "8fdd3689-b5f8-44af-a373-f9ca5f06b143",
+            "score": 0.87,
+            "why_recommended": "Advanced polyurethane mortar system designed for demanding healthcare applications. Provides seamless, monolithic surface with inherent antimicrobial properties and exceptional resistance to hospital-grade disinfectants. The self-leveling installation creates the smooth, cove-integrated surfaces essential for OR infection control protocols.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Polyurethane"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Protect-All Sheet",
+            "supplier": "AMARCO",
+            "product_id": "80a59f8e-f998-4c0e-8d0b-4db213e040a4",
+            "score": 0.75,
+            "why_recommended": "Kitchen safety flooring with proven antimicrobial surface technology adaptable to healthcare environments. Sheet installation provides seamless coverage with welded seams, while the specialized surface chemistry resists bacterial growth and facilitates thorough disinfection required in surgical settings.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Rigid Sheet Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Spectation\u2122",
+            "supplier": "Matter Surfaces",
+            "product_id": "5cf7152d-94d8-4377-a88e-9e4db4647c38",
+            "score": 0.68,
+            "why_recommended": "Dual durometer vulcanized rubber flooring offering natural antimicrobial properties inherent to rubber material. While requiring seamed installation, the chemical resistance and cleanability make it suitable for less critical OR support areas where seamless installation is not mandatory.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Rubber"
+            ],
+            "potential_concerns": "Seamed installation may not meet seamless requirements for primary surgical areas"
+          }
+        ],
+        "search_strategy_summary": "Focused on healthcare-specific flooring systems, seamless installation methods, antimicrobial materials, and chemical-resistant surfaces. Found strong options in resinous flooring systems from Stonhard with proven OR applications, plus specialized healthcare sheet products and rubber systems with natural antimicrobial properties.",
+        "gaps_and_caveats": "Request detailed antimicrobial test data, chemical resistance charts for specific disinfectants, and installation specifications from Stonhard to verify seamless cove integration capabilities for OR requirements."
+      },
+      "collected_summary": {
+        "products_count": 24,
+        "materials_count": 23,
+        "certifications_count": 8,
+        "companies_count": 8,
+        "taxonomies_count": 4,
+        "product_ids": [
+          "217fdae6-832f-493a-8b81-79f6be736400",
+          "5cf7152d-94d8-4377-a88e-9e4db4647c38",
+          "5eef9df1-ca52-4c46-9ed1-66901b28d460",
+          "ffe9df3f-fa30-4ee9-a0f1-31cdcbe43c2c",
+          "c166c8dc-0403-44d5-a9b9-4dabd6b5a446",
+          "5a68614b-f918-4814-ac94-5d7e4f9a588e",
+          "4375e488-0451-4ab4-bbcc-e812f263fd9d",
+          "59f9269a-68e7-4a32-aee8-5a8d71f89a98",
+          "48013835-863e-4017-89ab-11151f87d902",
+          "d4c0e239-a721-4c0a-a118-8582788a1229",
+          "8fdd3689-b5f8-44af-a373-f9ca5f06b143",
+          "80a59f8e-f998-4c0e-8d0b-4db213e040a4",
+          "0645cc5c-5ac3-4ab0-88b9-3bd47c30b570",
+          "e80c9a3b-8149-46e9-8946-fb85351e0e04",
+          "6363daf0-f706-4a88-897f-a3cfa7f2508a",
+          "581ff28b-7b5b-4c18-826c-e4c7a1ecc32d",
+          "2adc31c5-4430-4c44-8d5a-632f4e4754c7",
+          "052724a9-ab7a-4d79-b85e-84f084457536",
+          "f18f62f1-84b1-492f-b7d4-2f811f812dff",
+          "1ce56e19-9a48-4112-b0d0-3fd2851f3c76",
+          "ba501b29-c2ce-4ed5-a3fa-2f8b7bb04542",
+          "d3cc9ea6-6013-42cf-a094-631635ea698f",
+          "86e235a6-a26e-459c-a657-f2448f57550d",
+          "ffa108e5-1862-4433-8639-88823b3dbf87"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 2,
+        "recalled_count": 2,
+        "rate": 1.0,
+        "matched": [
+          "sheet vinyl",
+          "rubber"
+        ],
+        "missed": []
+      }
+    },
+    {
+      "id": "q003",
+      "query": "outpatient clinic waiting area, sound-dampening, easy to clean",
+      "category": "healthcare",
+      "status": "ok",
+      "elapsed_s": 29.02,
+      "expected_attributes": {
+        "required_use_case": "healthcare",
+        "preferred_features": [
+          "acoustic",
+          "cleanable"
+        ],
+        "preferred_materials": [
+          "vinyl",
+          "rubber",
+          "carpet_tile"
+        ]
+      },
+      "response": {
+        "project_summary": "Outpatient clinic waiting area requiring acoustic control and easy-to-clean surfaces for healthcare infection control compliance.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Ceiling Panels - Echotrol Acoustic",
+            "supplier": "Western Noise Control",
+            "product_id": "c9eb18c2-e7c9-4f49-9686-bb1bb77864f0",
+            "score": 0.92,
+            "why_recommended": "Western Noise Control's Echotrol Acoustic ceiling panels deliver superior sound dampening performance essential for healthcare waiting areas while providing cleanable surfaces that meet infection control requirements. The ceiling-mounted application maximizes acoustic benefit without interfering with furniture or patient flow.",
+            "relevant_certifications": [
+              "GREENGUARD Gold Certified"
+            ],
+            "relevant_materials": [
+              "Acoustic Ceiling Panel"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Acoustic Ceiling Panel - Lay-In",
+            "supplier": "Cardinal Acoustics",
+            "product_id": "a42249e4-06ee-4aa2-94cd-59645ad4e531",
+            "score": 0.89,
+            "why_recommended": "Cardinal Acoustics' lay-in ceiling panels provide excellent acoustic performance with easy maintenance access through standard grid systems. The lay-in design allows for simple cleaning protocols and panel replacement when needed, critical for healthcare environments.",
+            "relevant_certifications": [
+              "GREENGUARD Certified"
+            ],
+            "relevant_materials": [
+              "Acoustic Ceiling Panel"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Sonic Panel\u00ae - Acoustic Wall & Ceiling Panel",
+            "supplier": "Lamvin",
+            "product_id": "6f24996c-3535-4e1f-890b-37310f39f575",
+            "score": 0.86,
+            "why_recommended": "Lamvin's Sonic Panel offers dual wall and ceiling application flexibility, allowing comprehensive acoustic treatment throughout the waiting area. The versatile mounting options enable targeted sound control in high-traffic zones while maintaining cleanable surfaces for healthcare compliance.",
+            "relevant_certifications": [
+              "GREENGUARD Gold Certified"
+            ],
+            "relevant_materials": [
+              "Acoustic Wall Panel",
+              "Acoustic Ceiling Panel"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Ceiling and Wall Panels - Envirocoustic\u2122 Wood Wool",
+            "supplier": "Acoustical Surfaces, Inc.",
+            "product_id": "aa5e55ea-92fb-469c-b5ee-654dea7aa089",
+            "score": 0.83,
+            "why_recommended": "Acoustical Surfaces' Envirocoustic wood wool panels provide natural acoustic absorption with antimicrobial properties suitable for healthcare applications. The wood wool material offers excellent sound dampening while maintaining durability for frequent cleaning protocols.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Wood Wool Acoustic Panel"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Silent Wall\u2122 - Rectangle Acoustical Panels",
+            "supplier": "MPC Silent Wall",
+            "product_id": "d4d3e6a1-e505-4f4d-adc8-1120e0d48456",
+            "score": 0.81,
+            "why_recommended": "MPC Silent Wall's rectangular panels deliver focused acoustic treatment for wall applications in waiting areas. The modular design allows for strategic placement around seating areas and reception zones where sound control is most critical for patient comfort.",
+            "relevant_certifications": [
+              "GREENGUARD Certified"
+            ],
+            "relevant_materials": [
+              "Acoustic Wall Panel"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across acoustic treatment products, healthcare-appropriate materials, and cleanable surface options from established commercial acoustic suppliers. Found strong ceiling and wall panel solutions from specialized acoustic manufacturers with proven healthcare applications.",
+        "gaps_and_caveats": "Request NRC ratings, cleaning protocol specifications, and antimicrobial treatment details from top three suppliers to verify healthcare compliance and acoustic performance targets."
+      },
+      "collected_summary": {
+        "products_count": 24,
+        "materials_count": 16,
+        "certifications_count": 8,
+        "companies_count": 8,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "c9eb18c2-e7c9-4f49-9686-bb1bb77864f0",
+          "a42249e4-06ee-4aa2-94cd-59645ad4e531",
+          "5b49e148-35bf-42ab-abf2-e79e0cc940fb",
+          "1f6bf561-08bc-41e3-9043-3371428b6df4",
+          "6f24996c-3535-4e1f-890b-37310f39f575",
+          "c45fdcae-5b3c-4800-ac64-eabed1b024da",
+          "2b6c286b-8d6f-4b4d-8f04-1322af3716be",
+          "9cbed50b-b361-449e-a51b-d285bc853783",
+          "aa5e55ea-92fb-469c-b5ee-654dea7aa089",
+          "d4d3e6a1-e505-4f4d-adc8-1120e0d48456",
+          "ac42626e-cf4f-48df-8532-04d31f2d1f3a",
+          "c5ca7b8d-4ab6-4042-b65f-99d38052048a",
+          "3c63d749-34a2-414d-9308-fa617f68f357",
+          "47995fe4-2d5e-46c4-8b76-2564039abbf3",
+          "fe346751-defd-444d-85bf-c3349cd3cb91",
+          "00009562-8323-40aa-95fb-85c910ee9876",
+          "ffe9df3f-fa30-4ee9-a0f1-31cdcbe43c2c",
+          "33e827fa-b1d2-462f-8d62-a1c6b7d1c801",
+          "05dba60b-2a18-44fd-b417-e412ef56bc05",
+          "658cb67d-9b81-432c-8cd6-246468537350",
+          "a3d2e0d6-0be7-4080-b243-7208652e16b6",
+          "c166c8dc-0403-44d5-a9b9-4dabd6b5a446",
+          "5cf7152d-94d8-4377-a88e-9e4db4647c38",
+          "5eef9df1-ca52-4c46-9ed1-66901b28d460"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 3,
+        "recalled_count": 0,
+        "rate": 0.0,
+        "matched": [],
+        "missed": [
+          "vinyl",
+          "rubber",
+          "carpet tile"
+        ]
+      }
+    },
+    {
+      "id": "q004",
+      "query": "MRI room flooring, non-magnetic and chemical-resistant",
+      "category": "healthcare",
+      "status": "ok",
+      "elapsed_s": 25.15,
+      "expected_attributes": {
+        "required_features": [
+          "non_magnetic",
+          "chemical_resistant"
+        ],
+        "preferred_materials": [
+          "vinyl",
+          "rubber"
+        ]
+      },
+      "response": {
+        "project_summary": "MRI room flooring requiring non-magnetic materials with chemical resistance, antimicrobial properties, and seamless installation for critical healthcare imaging environment.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Stongard MR",
+            "supplier": "Stonhard",
+            "product_id": "831f252b-fef0-41a7-900f-c4f04bee8ccf",
+            "score": 0.95,
+            "why_recommended": "Stonhard's Stongard MR is specifically engineered for MRI environments with proven non-magnetic properties and exceptional chemical resistance. This epoxy-urethane system provides seamless installation eliminating joints where contaminants can harbor, while delivering the antimicrobial surface required for critical imaging spaces. Stonhard has decades of healthcare flooring expertise and this product directly addresses MRI compatibility requirements.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Epoxy And Urethane Based Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Norament\u00ae 928 Grano ED",
+            "supplier": "nora systems, Inc.",
+            "product_id": "34850fac-058d-4f10-ba30-c8e0ca41c3d9",
+            "score": 0.88,
+            "why_recommended": "Nora's electrically dissipative rubber flooring combines non-magnetic properties with static control essential for sensitive MRI equipment. The seamless sheet installation and inherent antimicrobial resistance of rubber make this ideal for healthcare environments requiring easy cleaning and infection control. Nora is the leading healthcare rubber flooring manufacturer with proven MRI room installations.",
+            "relevant_certifications": [
+              "NSF/ANSI 332 Sustainability Assessment for Resilient Floor Coverings - Silver Level"
+            ],
+            "relevant_materials": [
+              "Rubber"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Noraplan\u00ae Stone ED",
+            "supplier": "nora systems, Inc.",
+            "product_id": "2312fbac-31d8-47d4-a3c6-ec76b6c75ef0",
+            "score": 0.85,
+            "why_recommended": "This electrically dissipative rubber flooring provides the non-magnetic properties and chemical resistance required for MRI environments. The Stone pattern offers aesthetic appeal while maintaining seamless installation and antimicrobial surface characteristics. Nora's ED products are specifically designed for healthcare applications where static control and cleanliness are critical.",
+            "relevant_certifications": [
+              "NSF/ANSI 332 Sustainability Assessment for Resilient Floor Coverings - Silver Level"
+            ],
+            "relevant_materials": [
+              "Rubber"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Noraplan\u00ae Astro EC",
+            "supplier": "nora systems, Inc.",
+            "product_id": "d42faeb9-c0df-464c-ada9-83dfa60db0d1",
+            "score": 0.82,
+            "why_recommended": "Nora's electrically conductive rubber flooring ensures complete static dissipation while maintaining non-magnetic properties essential for MRI rooms. The seamless sheet format eliminates joints and provides easy cleaning for infection control. This product balances the technical requirements of MRI compatibility with healthcare-grade performance standards.",
+            "relevant_certifications": [
+              "NSF/ANSI 332 Sustainability Assessment for Resilient Floor Coverings - Silver Level"
+            ],
+            "relevant_materials": [
+              "Rubber"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "SaniPath\u2122",
+            "supplier": "Matter Surfaces",
+            "product_id": "c166c8dc-0403-44d5-a9b9-4dabd6b5a446",
+            "score": 0.78,
+            "why_recommended": "Matter Surfaces' recycled PVC flooring offers non-magnetic properties with enhanced antimicrobial performance for healthcare environments. The seamless installation capability and chemical resistance make it suitable for MRI rooms requiring frequent cleaning with medical-grade disinfectants. The recycled content supports sustainability goals while maintaining technical performance.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Recycled PVC"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across specialty healthcare flooring, non-magnetic materials, static dissipative systems, and MRI-compatible products. Found strong options in epoxy-urethane and rubber categories from established healthcare flooring specialists Stonhard and Nora Systems, with electrically dissipative properties addressing static control requirements.",
+        "gaps_and_caveats": "Confirm MRI compatibility certifications and static dissipative ratings with Stonhard and Nora representatives. Request installation specifications for seamless application and verify chemical resistance against specific disinfectants used in your facility."
+      },
+      "collected_summary": {
+        "products_count": 22,
+        "materials_count": 16,
+        "certifications_count": 8,
+        "companies_count": 16,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "5cf7152d-94d8-4377-a88e-9e4db4647c38",
+          "5eef9df1-ca52-4c46-9ed1-66901b28d460",
+          "f45b9494-7610-4186-b2ec-bae171cf8182",
+          "fed02948-7287-43f3-b5fc-5d187e109010",
+          "2288d16b-9bfa-4efc-a201-95865385b842",
+          "6564f1aa-c95c-4f76-ad6c-40b94bad9fc5",
+          "177c531f-65e9-4c82-89ae-bf125c4731ab",
+          "36df18bd-cd5c-4ae1-b2ee-791f94aa07e2",
+          "6ce5c1e9-bfc0-4003-8227-148438631d81",
+          "34850fac-058d-4f10-ba30-c8e0ca41c3d9",
+          "d42faeb9-c0df-464c-ada9-83dfa60db0d1",
+          "2312fbac-31d8-47d4-a3c6-ec76b6c75ef0",
+          "42b7dac7-49fe-48cd-a360-8d6620d718d5",
+          "adc27581-8e46-4cae-8d22-5a77643f0c14",
+          "92690619-8b49-40a7-b5f4-97d86ed7ed79",
+          "831f252b-fef0-41a7-900f-c4f04bee8ccf",
+          "ffe9df3f-fa30-4ee9-a0f1-31cdcbe43c2c",
+          "33e827fa-b1d2-462f-8d62-a1c6b7d1c801",
+          "05dba60b-2a18-44fd-b417-e412ef56bc05",
+          "658cb67d-9b81-432c-8cd6-246468537350",
+          "a3d2e0d6-0be7-4080-b243-7208652e16b6",
+          "c166c8dc-0403-44d5-a9b9-4dabd6b5a446"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 2,
+        "recalled_count": 1,
+        "rate": 0.5,
+        "matched": [
+          "rubber"
+        ],
+        "missed": [
+          "vinyl"
+        ]
+      }
+    },
+    {
+      "id": "q005",
+      "query": "long-term care facility resident rooms, slip-resistant, residential aesthetic",
+      "category": "healthcare",
+      "status": "ok",
+      "elapsed_s": 32.12,
+      "expected_attributes": {
+        "required_features": [
+          "slip_resistant"
+        ],
+        "preferred_aesthetic": "residential",
+        "preferred_use_case": "long_term_care"
+      },
+      "response": {
+        "project_summary": "Long-term care facility resident rooms requiring slip-resistant flooring with residential aesthetic for healthcare compliance and institutional durability.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Eternal Step SR",
+            "supplier": "Forbo Flooring Systems",
+            "product_id": "25b491b5-7eb0-498f-b604-bbab4b7bfdd4",
+            "score": 0.92,
+            "why_recommended": "Forbo's Eternal Step SR is specifically engineered for healthcare environments requiring slip resistance. The safety flooring designation indicates proven slip-resistant properties essential for elderly residents, while Forbo's reputation for healthcare-grade resilient flooring ensures compliance with institutional requirements. The product balances safety performance with aesthetic flexibility suitable for residential-style rooms.",
+            "relevant_certifications": [
+              "FloorScore",
+              "NFSI B101.3"
+            ],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Pines Terrace",
+            "supplier": "Daltile",
+            "product_id": "b30efc93-378d-4c5e-8d1f-a8b9f6d4fbcb",
+            "score": 0.88,
+            "why_recommended": "Daltile's luxury vinyl flooring delivers the residential wood aesthetic critical for creating homelike environments in long-term care. The luxury vinyl construction provides institutional durability while offering comfort underfoot and easy maintenance. Daltile's commercial flooring expertise ensures healthcare facility compliance with enhanced slip resistance compared to standard residential products.",
+            "relevant_certifications": [
+              "FloorScore",
+              "332 Resilient Flooring Silver"
+            ],
+            "relevant_materials": [
+              "Luxury Vinyl Plank"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Mansfield Mahogany",
+            "supplier": "Adore Floors, Inc.",
+            "product_id": "d6e611b6-e55b-4084-8b84-ca900ee2c645",
+            "score": 0.85,
+            "why_recommended": "This luxury vinyl flooring provides authentic wood aesthetics essential for residential-style long-term care environments. The mahogany pattern creates warmth and familiarity for residents while the vinyl construction ensures slip resistance and easy sanitization required in healthcare settings. The luxury vinyl format combines institutional performance with residential appeal.",
+            "relevant_certifications": [
+              "FloorScore"
+            ],
+            "relevant_materials": [
+              "Luxury Vinyl Plank"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Filigree",
+            "supplier": "Mannington Mills",
+            "product_id": "03ae9702-857f-457d-84db-c0355628fa62",
+            "score": 0.82,
+            "why_recommended": "Mannington's Benchmark Resilient line is designed for commercial healthcare applications with proven institutional durability. The Filigree pattern offers decorative appeal suitable for residential-style rooms while maintaining the slip resistance and easy maintenance required for long-term care facilities. Mannington's healthcare flooring expertise ensures regulatory compliance.",
+            "relevant_certifications": [
+              "FloorScore",
+              "332 Resilient Flooring Gold"
+            ],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Sheet Flooring",
+            "supplier": "Mohawk Flooring",
+            "product_id": "5037d103-0321-4a56-8db3-d0a01b49bcad",
+            "score": 0.78,
+            "why_recommended": "Mohawk's sheet vinyl provides seamless installation critical for healthcare infection control while offering slip-resistant properties. The sheet format eliminates grout lines and seams where bacteria can harbor, essential for long-term care facilities. Mohawk's commercial flooring division ensures institutional-grade performance with residential aesthetic options.",
+            "relevant_certifications": [
+              "FloorScore"
+            ],
+            "relevant_materials": [
+              "Rigid Sheet Vinyl"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched healthcare flooring products, slip-resistant materials, luxury vinyl options, and established commercial flooring manufacturers. Found strong matches in safety flooring from Forbo, luxury vinyl products from Daltile and Adore Floors, and institutional-grade resilient flooring from Mannington and Mohawk, all suitable for long-term care residential aesthetics.",
+        "gaps_and_caveats": "Request slip-resistance test data (NFSI B101.3 ratings) from Forbo and Daltile representatives to verify compliance with long-term care facility requirements. Obtain product samples to evaluate residential aesthetic suitability and comfort underfoot for elderly residents."
+      },
+      "collected_summary": {
+        "products_count": 16,
+        "materials_count": 16,
+        "certifications_count": 16,
+        "companies_count": 16,
+        "taxonomies_count": 3,
+        "product_ids": [
+          "b242eef2-4288-4277-a53a-dbc7364e1975",
+          "25b491b5-7eb0-498f-b604-bbab4b7bfdd4",
+          "94975c0c-4a33-48c2-a0f8-733dfcc31dfb",
+          "6be1083a-ef8d-4c7a-8f4d-36bbb60df515",
+          "105ccccf-86a7-4de1-8793-93d92aaa5260",
+          "1ca87e55-31f1-4d0b-8470-016c291fa2f8",
+          "46415b35-c49b-4f0b-8647-fad569854a23",
+          "d2d6b8f3-f694-4247-acde-909bd1c1548c",
+          "b30efc93-378d-4c5e-8d1f-a8b9f6d4fbcb",
+          "d6e611b6-e55b-4084-8b84-ca900ee2c645",
+          "839d016e-d6b0-40e5-bc3a-778708686d82",
+          "03ae9702-857f-457d-84db-c0355628fa62",
+          "cb1bfa21-777b-451a-bc68-ea9e6ae835c5",
+          "48cfcd69-fff0-41b6-9083-003673766dac",
+          "5037d103-0321-4a56-8db3-d0a01b49bcad",
+          "aa6092af-646a-4b07-9fba-5d059142c1f6"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "no material expectations on this query"
+      }
+    },
+    {
+      "id": "q006",
+      "query": "open-plan tech office, sustainable materials, modern aesthetic, $15-25 per sqft",
+      "category": "commercial",
+      "status": "ok",
+      "elapsed_s": 24.46,
+      "expected_attributes": {
+        "environmental_constraints": [
+          "sustainable",
+          "LEED"
+        ],
+        "budget_range": "mid",
+        "preferred_aesthetic": "modern"
+      },
+      "response": {
+        "project_summary": "Open-plan tech office requiring sustainable materials with modern aesthetic, acoustic performance, and $15-25 per sqft budget.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "36\" Modular Tile",
+            "supplier": "Milliken & Company",
+            "product_id": "03068a4c-02ca-436c-be95-4a9a13cd6a72",
+            "score": 0.92,
+            "why_recommended": "Milliken's 36\" modular carpet tiles are ideal for tech offices \u2014 the large format creates a contemporary aesthetic while carpet provides essential acoustic absorption for open-plan environments. Milliken is a sustainability leader with extensive recycled content options and low-emission products that fit your budget range.",
+            "relevant_certifications": [
+              "GREENGUARD Gold Certified",
+              "Green Label Plus"
+            ],
+            "relevant_materials": [
+              "Carpet Tile"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Modern Functional",
+            "supplier": "Mohawk Group",
+            "product_id": "ba6d4c5f-328f-4811-a5d1-3cbbd209fc39",
+            "score": 0.88,
+            "why_recommended": "Mohawk's Modern Functional 24\"x24\" carpet tiles deliver the contemporary aesthetic tech companies demand while providing acoustic benefits critical for open offices. Mohawk Group leads in sustainable manufacturing with carbon-neutral products and extensive recycled content programs.",
+            "relevant_certifications": [
+              "GREENGUARD Certified",
+              "Green Label Plus"
+            ],
+            "relevant_materials": [
+              "24\" x 24\" Carpet Tile"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Catwalk II Walk-off",
+            "supplier": "J+J Flooring",
+            "product_id": "d2ecb741-1759-4196-9855-70eadbb90755",
+            "score": 0.85,
+            "why_recommended": "J+J's Catwalk II provides dual functionality as entrance flooring and general office space coverage. The modular format supports flexible tech office layouts while J+J's commitment to carbon neutrality and recycled content aligns with sustainability requirements.",
+            "relevant_certifications": [
+              "GREENGUARD Certified",
+              "Green Label Plus"
+            ],
+            "relevant_materials": [
+              "Modular Carpet"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Sonic Panel\u00ae",
+            "supplier": "Lamvin",
+            "product_id": "6f24996c-3535-4e1f-890b-37310f39f575",
+            "score": 0.82,
+            "why_recommended": "Lamvin's Sonic Panel acoustic wall and ceiling panels address the critical sound management needs of open-plan tech offices. These panels provide targeted acoustic treatment while maintaining the clean, modern aesthetic tech companies prefer.",
+            "relevant_certifications": [
+              "GREENGUARD Certified"
+            ],
+            "relevant_materials": [
+              "Acoustic Wall & Ceiling Panel"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Echotrol Acoustic Ceiling Panels",
+            "supplier": "Western Noise Control",
+            "product_id": "c9eb18c2-e7c9-4f49-9686-bb1bb77864f0",
+            "score": 0.78,
+            "why_recommended": "Western Noise Control's Echotrol panels provide essential acoustic control for open tech offices where noise management is critical for productivity. The ceiling-mounted solution preserves floor space while delivering professional acoustic performance.",
+            "relevant_certifications": [
+              "GREENGUARD Certified"
+            ],
+            "relevant_materials": [
+              "Echotrol Acoustic"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across sustainable flooring and acoustic solutions for open offices, focusing on carpet tiles from leading commercial manufacturers and acoustic panels for sound management. Found strong options in modular carpet systems and ceiling-mounted acoustic treatments from established suppliers with proven sustainability credentials.",
+        "gaps_and_caveats": "Request sustainability documentation including recycled content percentages and EPDs from Milliken, Mohawk, and J+J to verify LEED credit contributions. Confirm acoustic performance data from Lamvin and Western Noise Control for open office noise reduction requirements."
+      },
+      "collected_summary": {
+        "products_count": 24,
+        "materials_count": 16,
+        "certifications_count": 15,
+        "companies_count": 8,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "c9eb18c2-e7c9-4f49-9686-bb1bb77864f0",
+          "a42249e4-06ee-4aa2-94cd-59645ad4e531",
+          "5b49e148-35bf-42ab-abf2-e79e0cc940fb",
+          "1f6bf561-08bc-41e3-9043-3371428b6df4",
+          "6f24996c-3535-4e1f-890b-37310f39f575",
+          "c45fdcae-5b3c-4800-ac64-eabed1b024da",
+          "2b6c286b-8d6f-4b4d-8f04-1322af3716be",
+          "9cbed50b-b361-449e-a51b-d285bc853783",
+          "03068a4c-02ca-436c-be95-4a9a13cd6a72",
+          "d2ecb741-1759-4196-9855-70eadbb90755",
+          "80470c3d-b8ff-441e-a32c-f131b33eaf65",
+          "2875af98-8e87-4f79-b634-1bff4d1c6202",
+          "0dd29fc7-5170-48ca-95eb-f39f37b1899d",
+          "ba6d4c5f-328f-4811-a5d1-3cbbd209fc39",
+          "7bfcf951-cb0a-46d1-a554-fe685bc1d785",
+          "c0bfede0-e198-4506-a75e-a002e6249872",
+          "fd554140-d105-4b6f-97ba-3cb62b04e590",
+          "16207592-f504-4b51-aa14-d0d8faf9f9a0",
+          "2d21ac74-2d39-4d9d-b799-35bdcf3990cd",
+          "00e966c9-288c-4088-a6ae-624840fb0b42",
+          "f8709b92-ea7c-41b7-b0a0-f7511fe57b2f",
+          "e7df820f-af25-4981-895c-06072af32b91",
+          "30bb43fe-7cf3-4fc4-93f7-809bf4824dca",
+          "32266665-3302-4bac-8359-7c5408c00f0f"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "no material expectations on this query"
+      }
+    },
+    {
+      "id": "q007",
+      "query": "law firm reception, premium materials, sound-absorbing",
+      "category": "commercial",
+      "status": "ok",
+      "elapsed_s": 24.66,
+      "expected_attributes": {
+        "budget_range": "high",
+        "preferred_features": [
+          "acoustic"
+        ],
+        "preferred_aesthetic": "premium"
+      },
+      "response": {
+        "project_summary": "Law firm reception area requiring premium acoustic materials that combine sound absorption with professional aesthetics for high-traffic durability.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Wood Panels",
+            "supplier": "National Solutions",
+            "product_id": "c5ca7b8d-4ab6-4042-b65f-99d38052048a",
+            "score": 0.92,
+            "why_recommended": "Mode Acoustic Wallcovering delivers the perfect combination of premium wood aesthetics and acoustic performance for a law firm reception. Wood panels provide the upscale, professional appearance clients expect while the acoustic properties manage sound in this high-traffic area. National Solutions has proven commercial-grade durability.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Wood Panels"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Decorative Carved Panel",
+            "supplier": "Durapalm | Smith & Fong",
+            "product_id": "a1c88838-eaf8-496b-9ebd-eaf07a1ab2f9",
+            "score": 0.89,
+            "why_recommended": "Durapalm's carved acoustic panels offer distinctive premium aesthetics that differentiate this law firm while providing excellent sound control. The decorative carved design adds architectural interest appropriate for a reception area, and Smith & Fong's sustainable materials align with modern corporate values.",
+            "relevant_certifications": [
+              "FSC"
+            ],
+            "relevant_materials": [
+              "Acoustic Ceiling & Wall Paneling"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Akustika 10",
+            "supplier": "FilzFelt",
+            "product_id": "a23fd5a6-30d5-4cc2-b0ee-cc3f27039c8a",
+            "score": 0.85,
+            "why_recommended": "FilzFelt's Akustika 10 wall panels provide sophisticated felt acoustics with premium material quality. The clean, modern aesthetic suits contemporary law firm design while delivering superior sound absorption. Felt materials offer excellent durability and maintain their appearance in high-traffic reception areas.",
+            "relevant_certifications": [
+              "GREENGUARD Gold"
+            ],
+            "relevant_materials": [
+              "Wall Panel"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Sonic Panel\u00ae",
+            "supplier": "Lamvin",
+            "product_id": "6f24996c-3535-4e1f-890b-37310f39f575",
+            "score": 0.82,
+            "why_recommended": "Lamvin's Sonic Panel offers versatile acoustic performance for both wall and ceiling applications, providing design flexibility in the reception area. The system delivers professional-grade sound control with commercial durability standards required for law firm environments.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Acoustic Wall & Ceiling Panel"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Acoustical",
+            "supplier": "Fry Reglet",
+            "product_id": "21c9806b-2ef6-4c81-8f0f-8d31c83ede9d",
+            "score": 0.78,
+            "why_recommended": "Fry Reglet's Flat Wall System provides seamless acoustic integration with clean architectural lines appropriate for professional environments. The system offers excellent sound control while maintaining the refined appearance expected in law firm reception areas.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Flat Wall System"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched acoustic treatment products focusing on wall panels and ceiling systems from established commercial suppliers. Found strong options across wood, felt, and engineered acoustic materials that balance premium aesthetics with sound absorption performance for professional reception environments.",
+        "gaps_and_caveats": "Request NRC ratings and installation details from National Solutions, Durapalm, and FilzFelt to verify acoustic performance specifications and confirm compatibility with reception area traffic patterns."
+      },
+      "collected_summary": {
+        "products_count": 23,
+        "materials_count": 15,
+        "certifications_count": 0,
+        "companies_count": 16,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "c9eb18c2-e7c9-4f49-9686-bb1bb77864f0",
+          "a42249e4-06ee-4aa2-94cd-59645ad4e531",
+          "5b49e148-35bf-42ab-abf2-e79e0cc940fb",
+          "1f6bf561-08bc-41e3-9043-3371428b6df4",
+          "6f24996c-3535-4e1f-890b-37310f39f575",
+          "c45fdcae-5b3c-4800-ac64-eabed1b024da",
+          "2b6c286b-8d6f-4b4d-8f04-1322af3716be",
+          "9cbed50b-b361-449e-a51b-d285bc853783",
+          "c5ca7b8d-4ab6-4042-b65f-99d38052048a",
+          "47995fe4-2d5e-46c4-8b76-2564039abbf3",
+          "3c63d749-34a2-414d-9308-fa617f68f357",
+          "2ccaa8b2-ed11-4896-8c55-f3ec4f65fb42",
+          "21c9806b-2ef6-4c81-8f0f-8d31c83ede9d",
+          "a1c88838-eaf8-496b-9ebd-eaf07a1ab2f9",
+          "a23fd5a6-30d5-4cc2-b0ee-cc3f27039c8a",
+          "be6e92f4-87d5-4d1f-ad0b-1245bb6ba451",
+          "f59cb75c-7682-421b-80bc-4c753ace76a5",
+          "4e52ab36-9937-4f42-87c1-e730bea832fa",
+          "c17268d7-a391-4b99-aa48-134e01bf00d0",
+          "53d52563-603f-4f01-8278-2c21c0e7405e",
+          "a3ee045d-56d4-43f7-a3a4-c6a16e5f7eb8",
+          "b70292d3-a733-4bd7-a4b0-d9a8021c50f0",
+          "4160152a-41dc-498d-882a-16458485325c"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "no material expectations on this query"
+      }
+    },
+    {
+      "id": "q008",
+      "query": "co-working space with hot desks, durable, low-maintenance",
+      "category": "commercial",
+      "status": "ok",
+      "elapsed_s": 23.66,
+      "expected_attributes": {
+        "required_features": [
+          "durable",
+          "low_maintenance"
+        ],
+        "required_use_case": "high_traffic"
+      },
+      "response": {
+        "project_summary": "Co-working space with hot desks requiring durable, low-maintenance flooring for heavy traffic and flexible workspace layouts.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Vinyl Deluxe Classic",
+            "supplier": "Duchateau",
+            "product_id": "95babeb2-c55d-46c3-8f1e-5e91e623fa82",
+            "score": 0.92,
+            "why_recommended": "Luxury vinyl plank from established commercial manufacturer delivers exceptional durability for high-traffic co-working environments. Easy-clean surface handles spills and daily maintenance efficiently, while plank format allows for flexible installation patterns that accommodate workspace reconfigurations.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Luxury Vinyl Plank"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Luxury Vinyl Plank",
+            "supplier": "Envision Hardwood Floors Inc.",
+            "product_id": "8e2c7eab-81ab-4f66-bb19-97a6eba0900b",
+            "score": 0.89,
+            "why_recommended": "WPC click system provides superior dimensional stability and moisture resistance for commercial applications. Click installation enables rapid deployment and future reconfiguration without adhesives, perfect for evolving co-working layouts.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "WPC Click"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Vinyl Deluxe LuxeTech 20",
+            "supplier": "Duchateau",
+            "product_id": "5363d6a4-dace-435c-8ab7-97ab6db8ace1",
+            "score": 0.87,
+            "why_recommended": "Enhanced luxury vinyl plank with advanced wear layer technology for maximum durability in heavy-use commercial environments. Duchateau's commercial-grade construction ensures long-term performance with minimal maintenance requirements.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Luxury Vinyl Plank"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Plus",
+            "supplier": "Hurst Hardwoods LLC",
+            "product_id": "5c4c66e2-0e7d-4dd1-9962-4de67e6d89d3",
+            "score": 0.85,
+            "why_recommended": "Aquashield technology provides enhanced water resistance and stain protection for high-traffic commercial spaces. Luxury vinyl construction offers durability while maintaining easy maintenance protocols essential for co-working environments.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Aquashield Luxury Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Essentials",
+            "supplier": "ProSpec LLC",
+            "product_id": "cbf74634-115a-4c2f-bcbd-81b6d1a70bed",
+            "score": 0.82,
+            "why_recommended": "Commercial-grade luxury vinyl plank designed for heavy-duty applications. ProSpec's focus on commercial markets ensures product meets durability requirements for co-working spaces while providing cost-effective maintenance solutions.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Luxury Vinyl Plank"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Focused on luxury vinyl plank products from commercial flooring manufacturers, emphasizing durability and low-maintenance characteristics. Found strong options across multiple suppliers with various installation systems including click-lock and adhesive applications suitable for flexible workspace environments.",
+        "gaps_and_caveats": "Request wear layer specifications and commercial warranty details from Duchateau and Envision reps to verify heavy-traffic performance ratings for co-working applications."
+      },
+      "collected_summary": {
+        "products_count": 24,
+        "materials_count": 15,
+        "certifications_count": 0,
+        "companies_count": 16,
+        "taxonomies_count": 3,
+        "product_ids": [
+          "03068a4c-02ca-436c-be95-4a9a13cd6a72",
+          "2e32324d-3873-4ca1-b490-cb9810402749",
+          "e43ce45b-f683-4b40-a9c3-b49166f8f21f",
+          "26cd2854-72d7-468c-a88c-2d76197a2695",
+          "873fd190-cfa6-4b13-b761-46b4e4c6d905",
+          "c022e7dd-336b-4c44-aba9-37cbdbcdc9a9",
+          "affca2c4-dcd0-4762-a27c-1eb96b9b2bd1",
+          "68e3cdf6-8d04-4e3c-800f-5612032a4cdf",
+          "95babeb2-c55d-46c3-8f1e-5e91e623fa82",
+          "8e2c7eab-81ab-4f66-bb19-97a6eba0900b",
+          "bfd01b3d-26a5-4c02-9ee9-34a29ebafd3e",
+          "cbf74634-115a-4c2f-bcbd-81b6d1a70bed",
+          "5c4c66e2-0e7d-4dd1-9962-4de67e6d89d3",
+          "5363d6a4-dace-435c-8ab7-97ab6db8ace1",
+          "500408f0-0a9d-4bda-b14e-7c06f868565d",
+          "0317c1b2-5fad-47a5-b927-6bb1e9a94937",
+          "e6eb416d-75a5-4b68-bb75-88b9f90cad20",
+          "e36e5f43-8fe5-439f-a9a0-cbb30c086b1d",
+          "bd7124d5-03b1-449e-84ba-c5af882b213a",
+          "9fd5df7d-7b24-49f0-9104-3b81837e8a18",
+          "6bfecfe8-4a9e-4b30-8101-6790ff21dd5b",
+          "55e943d3-a455-42b9-a76a-a646de552f43",
+          "3e10ec4e-f1bf-46f4-af6d-15f5015a6091",
+          "5e3c4849-e70a-48f1-b627-a13f1775d661"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "no material expectations on this query"
+      }
+    },
+    {
+      "id": "q009",
+      "query": "retail showroom for high-end fashion brand, polished concrete or terrazzo",
+      "category": "commercial",
+      "status": "ok",
+      "elapsed_s": 19.92,
+      "expected_attributes": {
+        "preferred_materials": [
+          "concrete",
+          "terrazzo"
+        ],
+        "budget_range": "high"
+      },
+      "response": {
+        "project_summary": "High-end fashion retail showroom requiring polished concrete or terrazzo flooring that delivers luxury aesthetics while withstanding commercial foot traffic.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "AutoFloorSystems\u2122",
+            "supplier": "Jockimo",
+            "product_id": "1572648a-e5e2-4910-afac-18cf171e0b5a",
+            "score": 0.75,
+            "why_recommended": "Glass floor systems from Jockimo offer the high-end aesthetic appeal and luxury brand compatibility required for fashion retail. The innovative glass flooring technology provides a distinctive, premium appearance that aligns with luxury brand image while delivering commercial durability for retail foot traffic.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Glass Floor Systems"
+            ],
+            "potential_concerns": "Glass flooring is not polished concrete or terrazzo as specifically requested"
+          },
+          {
+            "rank": 2,
+            "product_name": "Hybri-Flex\u2122 AC",
+            "supplier": "Sherwin Williams High Performance Coatings & Flooring",
+            "product_id": "ab3808b6-deb6-4214-8606-ab07f572709e",
+            "score": 0.7,
+            "why_recommended": "Sherwin Williams decorative flooring system offers the polished, seamless aesthetic that can mimic polished concrete while providing superior durability for retail environments. The decorative coating system allows for custom finishes that support luxury brand positioning and handles heavy foot traffic.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Decorative Flooring System"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Luxury Vinyl Tile",
+            "supplier": "The Matworks",
+            "product_id": "7eb9982d-4c05-433a-a495-84d07bd0836e",
+            "score": 0.65,
+            "why_recommended": "Stone-finish luxury vinyl tile provides a cost-effective alternative that can achieve the polished concrete aesthetic while offering proven retail durability. The resilient flooring technology ensures long-term performance under high foot traffic while maintaining the clean, modern appearance suitable for luxury fashion retail.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Resilient Flooring Stone"
+            ],
+            "potential_concerns": "LVT may not achieve the authentic material aesthetic expected for high-end fashion retail"
+          }
+        ],
+        "search_strategy_summary": "Searched across flooring products, decorative systems, and luxury materials targeting retail applications. Found strong terrazzo and concrete material categories in the database, plus specialized companies like Surface Elements (Terrazzio) and Concord Terrazzo, but limited actual product matches for the specific polished concrete and terrazzo requirements.",
+        "gaps_and_caveats": "Contact Surface Elements (Terrazzio) and Concord Terrazzo directly for custom terrazzo solutions, and engage Preferred Concrete Polishing for polished concrete specifications that meet luxury retail standards"
+      },
+      "collected_summary": {
+        "products_count": 22,
+        "materials_count": 16,
+        "certifications_count": 0,
+        "companies_count": 16,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "bfd01b3d-26a5-4c02-9ee9-34a29ebafd3e",
+          "07f26966-fe35-4a61-ac37-4339d66cd5d2",
+          "7eb9982d-4c05-433a-a495-84d07bd0836e",
+          "db8c7e87-a2d6-4ae6-a5f2-7ac9373df813",
+          "451b55fa-1f97-48c7-b38a-4b5a5cd326a5",
+          "a629212e-3af7-433e-9a62-3da3e685eb5c",
+          "e20d5591-2437-4172-aee5-cc0bc140e3c9",
+          "36a78c01-8364-448a-860f-32f598f675cd",
+          "ac25093e-ce5b-4863-a56b-062f5221a9de",
+          "691d98d3-b44f-4750-92df-dc11e2fcb48d",
+          "340a577f-2065-4649-8002-1ae2c56d843d",
+          "2138a2d0-345b-4080-91b8-fbe8c97706b2",
+          "f8130af2-0203-4b5c-a949-87a729aec4e3",
+          "28ae3040-3697-4d8e-9065-f172c135d481",
+          "1572648a-e5e2-4910-afac-18cf171e0b5a",
+          "e8bf932d-5c65-4602-827d-e087c9024c05",
+          "e6fd04d3-4488-4de7-9746-692a299575b3",
+          "4d7421e5-cd03-42bc-8b84-dcb34bc2ec17",
+          "063415a8-e96b-420f-b681-3d176488e479",
+          "a756fcdc-21a8-4170-aed9-dc088e2f5738",
+          "ab3808b6-deb6-4214-8606-ab07f572709e",
+          "5ee2baf7-1f1b-4a40-b405-77f7f1f863bb"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 3,
+        "grounded": 3,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 2,
+        "recalled_count": 0,
+        "rate": 0.0,
+        "matched": [],
+        "missed": [
+          "concrete",
+          "terrazzo"
+        ]
+      }
+    },
+    {
+      "id": "q010",
+      "query": "restaurant kitchen, slip-resistant, grease-resistant, FDA-compliant",
+      "category": "commercial",
+      "status": "ok",
+      "elapsed_s": 26.87,
+      "expected_attributes": {
+        "required_features": [
+          "slip_resistant",
+          "grease_resistant"
+        ],
+        "required_certifications": [
+          "FDA"
+        ]
+      },
+      "response": {
+        "project_summary": "Commercial restaurant kitchen requiring slip-resistant, grease-resistant, FDA-compliant flooring with chemical resistance and easy cleaning capabilities.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Eternal Step SR",
+            "supplier": "Forbo Flooring Systems",
+            "product_id": "25b491b5-7eb0-498f-b604-bbab4b7bfdd4",
+            "score": 0.92,
+            "why_recommended": "Forbo's Eternal Step SR is purpose-built safety flooring ideal for commercial kitchens. Forbo has a proven track record in food service environments with their safety flooring systems offering superior slip resistance, chemical resistance to grease and cleaning agents, and seamless installation that eliminates grout lines where bacteria can harbor. The SR designation indicates enhanced slip resistance critical for wet kitchen conditions.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Safety Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Eternal Step Aqua SR",
+            "supplier": "Forbo Flooring Systems",
+            "product_id": "d2d6b8f3-f694-4247-acde-909bd1c1548c",
+            "score": 0.9,
+            "why_recommended": "Forbo's Aqua SR variant is specifically engineered for wet environments like commercial kitchens. The Aqua designation indicates enhanced water and moisture resistance beyond standard safety flooring, while maintaining the slip-resistant properties essential for kitchen safety. Forbo's reputation in food service applications makes this a reliable choice for FDA-compliant environments.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Safety Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "SFT 675",
+            "supplier": "PPG Architectural Finishes Inc. PPG Paints",
+            "product_id": "b242eef2-4288-4277-a53a-dbc7364e1975",
+            "score": 0.85,
+            "why_recommended": "PPG's SFT 675 anti-slip safety flooring offers industrial-grade performance suitable for commercial kitchen environments. PPG's coating expertise translates to superior chemical resistance against grease, oils, and harsh cleaning chemicals. The anti-slip formulation provides necessary traction in wet conditions while maintaining easy-to-clean surfaces required for food service applications.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Anti-Slip Safety Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "SFT 650",
+            "supplier": "PPG Architectural Finishes Inc. PPG Paints",
+            "product_id": "105ccccf-86a7-4de1-8793-93d92aaa5260",
+            "score": 0.83,
+            "why_recommended": "PPG's SFT 650 provides commercial-grade anti-slip performance with proven durability in demanding environments. The coating system offers excellent adhesion and chemical resistance necessary for kitchen applications where grease, oils, and cleaning chemicals are present daily. PPG's industrial coating background ensures long-term performance in high-traffic food service areas.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Anti-Slip Safety Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Stairtile 50mm Disc",
+            "supplier": "Gradus",
+            "product_id": "46415b35-c49b-4f0b-8647-fad569854a23",
+            "score": 0.75,
+            "why_recommended": "Gradus Stairtile offers modular slip-resistant flooring with excellent durability for commercial applications. The disc pattern provides enhanced traction while the modular system allows for easy replacement of damaged sections without full floor replacement. Gradus specializes in commercial safety flooring with proven performance in demanding environments.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Slip-Resistant Flooring"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across commercial safety flooring products, anti-slip materials, and established manufacturers with food service experience. Found strong options in safety flooring and anti-slip coating categories from Forbo and PPG, both with proven commercial kitchen applications and chemical resistance capabilities.",
+        "gaps_and_caveats": "Request detailed specifications on slip-resistance ratings (ASTM D2047 or equivalent), chemical resistance data for common kitchen cleaners and grease, and FDA compliance documentation from Forbo and PPG representatives to verify suitability for commercial food service applications."
+      },
+      "collected_summary": {
+        "products_count": 16,
+        "materials_count": 16,
+        "certifications_count": 14,
+        "companies_count": 16,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "ffe9df3f-fa30-4ee9-a0f1-31cdcbe43c2c",
+          "fed02948-7287-43f3-b5fc-5d187e109010",
+          "217fdae6-832f-493a-8b81-79f6be736400",
+          "5cf7152d-94d8-4377-a88e-9e4db4647c38",
+          "5eef9df1-ca52-4c46-9ed1-66901b28d460",
+          "ec61af2a-484a-409a-a29c-a569fe6ddb61",
+          "e5594f68-46f4-4218-a8df-91ad0f3bd321",
+          "36ab9152-caa3-4dd5-b3eb-3d6869bb5a97",
+          "46415b35-c49b-4f0b-8647-fad569854a23",
+          "b242eef2-4288-4277-a53a-dbc7364e1975",
+          "25b491b5-7eb0-498f-b604-bbab4b7bfdd4",
+          "105ccccf-86a7-4de1-8793-93d92aaa5260",
+          "6be1083a-ef8d-4c7a-8f4d-36bbb60df515",
+          "94975c0c-4a33-48c2-a0f8-733dfcc31dfb",
+          "1ca87e55-31f1-4d0b-8470-016c291fa2f8",
+          "d2d6b8f3-f694-4247-acde-909bd1c1548c"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": true,
+        "required_certs": 1,
+        "matched_certs": 0,
+        "rate": 0.0,
+        "details": [
+          {
+            "cert": "fda",
+            "found": false
+          }
+        ]
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "no material expectations on this query"
+      }
+    },
+    {
+      "id": "q011",
+      "query": "boutique hotel lobby, biophilic design, warm wood tones, mid-luxury budget",
+      "category": "hospitality",
+      "status": "ok",
+      "elapsed_s": 25.54,
+      "expected_attributes": {
+        "preferred_aesthetic": "biophilic",
+        "preferred_materials": [
+          "wood",
+          "engineered_wood"
+        ],
+        "budget_range": "mid_high"
+      },
+      "response": {
+        "project_summary": "Boutique hotel lobby requiring biophilic design elements with warm wood tones, balancing natural aesthetic appeal with hospitality-grade durability within mid-luxury budget constraints.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Wood Classic",
+            "supplier": "EarthWerks",
+            "product_id": "d83d4e89-f5c6-4cd0-940f-b14555b8ccbe",
+            "score": 0.92,
+            "why_recommended": "EarthWerks Wood Classic luxury vinyl plank delivers authentic warm wood aesthetics essential for biophilic design while providing the commercial durability required for high-traffic hotel lobbies. EarthWerks is a proven hospitality flooring supplier with products engineered for mid-luxury applications, offering the perfect balance of natural wood appearance and performance within budget constraints.",
+            "relevant_certifications": [
+              "GREENGUARD Certified"
+            ],
+            "relevant_materials": [
+              "Luxury Vinyl Plank"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Ironwood",
+            "supplier": "Durapalm | Smith & Fong",
+            "product_id": "047b2eb2-afa8-4b66-81a3-c233e2c0457a",
+            "score": 0.89,
+            "why_recommended": "Durapalm's Ironwood acoustic ceiling and wall paneling provides authentic wood texture for biophilic design while addressing hotel lobby acoustics. Smith & Fong specializes in sustainable bamboo and wood products, delivering natural material authenticity that supports the warm wood tone requirement while providing functional acoustic benefits for guest comfort.",
+            "relevant_certifications": [
+              "FSC Certified"
+            ],
+            "relevant_materials": [
+              "Engineered Wood"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Earth Woods Plank",
+            "supplier": "LSI Floors",
+            "product_id": "863e0276-fb62-4398-a3e9-367be4bca6a2",
+            "score": 0.86,
+            "why_recommended": "LSI Floors Earth Woods Plank luxury vinyl tile offers natural wood visuals supporting biophilic design principles with commercial-grade performance for hotel environments. The plank format provides installation flexibility for creating organic, nature-inspired patterns while maintaining the durability and maintenance ease required for hospitality applications.",
+            "relevant_certifications": [
+              "GREENGUARD Certified"
+            ],
+            "relevant_materials": [
+              "Luxury Vinyl Tile"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Artificial Living Walls",
+            "supplier": "Mobilane",
+            "product_id": "55925b39-d1fb-4383-ba1f-b391ae66d8ef",
+            "score": 0.84,
+            "why_recommended": "Mobilane's Artificial Living Walls directly address biophilic design requirements by introducing vertical greenery elements that complement warm wood tones. These systems provide the natural aesthetic impact essential for boutique hotel ambiance while eliminating maintenance concerns of live plants, making them ideal for hospitality environments with consistent appearance requirements.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Artificial Plant Materials"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Wood Panels",
+            "supplier": "National Solutions",
+            "product_id": "c5ca7b8d-4ab6-4042-b65f-99d38052048a",
+            "score": 0.82,
+            "why_recommended": "National Solutions Wood Panels acoustic wallcovering combines warm wood aesthetics with sound management critical for hotel lobby comfort. The Mode system provides design flexibility to create feature walls that enhance biophilic design while addressing acoustic challenges in open lobby spaces, supporting both aesthetic and functional hospitality requirements.",
+            "relevant_certifications": [
+              "GREENGUARD Certified"
+            ],
+            "relevant_materials": [
+              "Wood Veneer"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across wood-look flooring, acoustic panels, living wall systems, and wood wall coverings from established commercial suppliers. Found strong options spanning luxury vinyl planks, engineered wood panels, and biophilic elements from manufacturers with proven hospitality track records including EarthWerks, Durapalm, and LSI Floors.",
+        "gaps_and_caveats": "Request product samples and installation details from top three suppliers to verify wood tone coordination and confirm acoustic performance specifications for lobby acoustics."
+      },
+      "collected_summary": {
+        "products_count": 24,
+        "materials_count": 15,
+        "certifications_count": 8,
+        "companies_count": 8,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "d83d4e89-f5c6-4cd0-940f-b14555b8ccbe",
+          "863e0276-fb62-4398-a3e9-367be4bca6a2",
+          "5a876d45-63db-47a5-b345-8826a7f0587c",
+          "cac69b74-a93d-4d03-ada9-a4f14d7f3ea0",
+          "a6c6a7a9-a037-4e91-add9-f0de4c93248d",
+          "17ad4f13-fef0-4e08-9635-d533af190b3d",
+          "ccb55b98-c507-43c2-9091-00d5a6ec37d0",
+          "7876d822-39e0-436f-b1b8-bb4404502692",
+          "55925b39-d1fb-4383-ba1f-b391ae66d8ef",
+          "9af52c56-2375-4b33-b1d3-37750543db13",
+          "e8821e6a-df6c-492b-8650-3284a837797e",
+          "734f6b3a-404d-47c0-9327-a8c22a9eb3c5",
+          "d5ddd660-eb69-4139-a11f-f26467a88af3",
+          "fa175402-86d8-40de-9ec3-26dd038ec1f7",
+          "a2a842da-9371-4f18-a873-15bfb0a53beb",
+          "b7858263-2380-42e6-b33f-c3905157d0d6",
+          "c5ca7b8d-4ab6-4042-b65f-99d38052048a",
+          "86f78207-f13c-4d49-b26e-0323a73ea09e",
+          "ffad7db7-c0ab-44d0-9af8-ab962251a083",
+          "047b2eb2-afa8-4b66-81a3-c233e2c0457a",
+          "4c2c15ea-4f25-4890-bd6a-42c6485043e5",
+          "a1c88838-eaf8-496b-9ebd-eaf07a1ab2f9",
+          "95f06c8e-0dbd-44da-9013-1c35abf70c45",
+          "2ccaa8b2-ed11-4896-8c55-f3ec4f65fb42"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 2,
+        "recalled_count": 2,
+        "rate": 1.0,
+        "matched": [
+          "wood",
+          "engineered wood"
+        ],
+        "missed": []
+      }
+    },
+    {
+      "id": "q012",
+      "query": "spa wet area, mold-resistant, barefoot-comfortable, slip-resistant when wet",
+      "category": "hospitality",
+      "status": "ok",
+      "elapsed_s": 33.34,
+      "expected_attributes": {
+        "required_features": [
+          "mold_resistant",
+          "slip_resistant_wet"
+        ],
+        "preferred_use_case": "wet_area"
+      },
+      "response": {
+        "project_summary": "Spa wet area flooring requiring mold resistance, barefoot comfort, slip resistance when wet, and moisture durability for wellness environment applications.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Textuality",
+            "supplier": "Bedrosians",
+            "product_id": "f518593a-b99e-499a-ba59-d0b0d20a8ad1",
+            "score": 0.85,
+            "why_recommended": "Ceramic tile from established commercial supplier offers inherent mold resistance and moisture imperviousness essential for spa wet areas. Ceramic's non-porous surface prevents bacterial growth while providing easy sanitization. Textured surface design enhances slip resistance when wet, critical for barefoot safety in spa environments.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Ceramic Tile"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Clays Linear Textured",
+            "supplier": "Creative Materials Corp",
+            "product_id": "44901e70-06d5-43ba-864c-efdab9ed68d3",
+            "score": 0.83,
+            "why_recommended": "Porcelain tile with linear texture provides superior moisture resistance and mold prevention for spa applications. Porcelain's dense, vitrified body offers enhanced durability over ceramic, while the textured surface delivers critical slip resistance for wet barefoot conditions. Linear pattern aids water drainage.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Porcelain Tiles"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Porcelain Tile",
+            "supplier": "Gigacer",
+            "product_id": "4e48627d-b55d-4a5e-a963-c23252406236",
+            "score": 0.82,
+            "why_recommended": "Concept 1 Texture porcelain from Gigacer delivers commercial-grade moisture resistance with textured surface for wet area safety. Porcelain's low water absorption rate prevents mold growth while maintaining barefoot comfort through controlled surface texture. Suitable for high-moisture spa environments.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Porcelain Tiles"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Metropolis Textured",
+            "supplier": "Creative Materials Corp",
+            "product_id": "0b91e65f-cb05-4ffc-8dfd-14a4142da20d",
+            "score": 0.8,
+            "why_recommended": "Textured porcelain tile engineered for slip resistance and moisture management in commercial wellness applications. The textured surface provides necessary grip for wet barefoot conditions while porcelain's impermeable nature prevents mold and bacterial growth in spa environments.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Porcelain Tile"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Dignitary Textured",
+            "supplier": "Daltile",
+            "product_id": "246be8bb-1d9b-4f12-a932-4cbdf3b5cb40",
+            "score": 0.78,
+            "why_recommended": "Daltile's textured rectangle porcelain tiles offer proven commercial performance for wet area applications. The textured surface enhances safety for barefoot traffic while porcelain's moisture resistance prevents mold growth. Daltile's established reputation ensures consistent quality and availability.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Rectangle Porcelain Tiles"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across ceramic and porcelain tile products, textured surfaces for slip resistance, moisture-resistant materials, and established commercial suppliers. Found strong options in textured ceramic and porcelain categories from reputable manufacturers with proven wet area performance.",
+        "gaps_and_caveats": "Request slip resistance test data (DCOF ratings) and antimicrobial surface treatments from tile manufacturers to verify spa-specific performance requirements."
+      },
+      "collected_summary": {
+        "products_count": 24,
+        "materials_count": 23,
+        "certifications_count": 8,
+        "companies_count": 8,
+        "taxonomies_count": 3,
+        "product_ids": [
+          "b242eef2-4288-4277-a53a-dbc7364e1975",
+          "105ccccf-86a7-4de1-8793-93d92aaa5260",
+          "d2d6b8f3-f694-4247-acde-909bd1c1548c",
+          "25b491b5-7eb0-498f-b604-bbab4b7bfdd4",
+          "6be1083a-ef8d-4c7a-8f4d-36bbb60df515",
+          "94975c0c-4a33-48c2-a0f8-733dfcc31dfb",
+          "1ca87e55-31f1-4d0b-8470-016c291fa2f8",
+          "46415b35-c49b-4f0b-8647-fad569854a23",
+          "f518593a-b99e-499a-ba59-d0b0d20a8ad1",
+          "5fc659d5-2c70-4aa8-b479-cb224dff27cf",
+          "44901e70-06d5-43ba-864c-efdab9ed68d3",
+          "4e48627d-b55d-4a5e-a963-c23252406236",
+          "0b91e65f-cb05-4ffc-8dfd-14a4142da20d",
+          "246be8bb-1d9b-4f12-a932-4cbdf3b5cb40",
+          "9b5f113f-2b0c-4234-b3e8-4d1d90cb2e29",
+          "0b044e40-b274-4a87-bdc5-0f9f073c1e0c",
+          "3dc9bb90-eb5d-4764-b743-0d19cfc5d6a2",
+          "3c8dec3f-c59a-4246-847d-e25c7fc02c99",
+          "5d4e8a88-8216-4430-b786-0bd813c2f6f9",
+          "5f411908-0147-4849-8935-b4a729c187cd",
+          "6aceba05-d336-4ec2-a576-bcfa80dff3e6",
+          "ee738f9c-f90e-41b4-bb51-a11cb130581c",
+          "2f68d2d4-a043-41e7-b654-0ee4edb38146",
+          "fbab419b-53fd-4dc9-a861-026d08abf535"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "no material expectations on this query"
+      }
+    },
+    {
+      "id": "q013",
+      "query": "luxury residential bathroom, natural stone, heated floor compatible",
+      "category": "residential",
+      "status": "ok",
+      "elapsed_s": 30.2,
+      "expected_attributes": {
+        "preferred_materials": [
+          "stone",
+          "marble",
+          "porcelain"
+        ],
+        "preferred_features": [
+          "radiant_heat_compatible"
+        ]
+      },
+      "response": {
+        "project_summary": "Luxury residential bathroom requiring natural stone flooring compatible with radiant heating systems and suitable for wet area applications.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Hearthstone",
+            "supplier": "Robbins",
+            "product_id": "24e8aa5c-045b-4731-b943-ab604fc3113a",
+            "score": 0.88,
+            "why_recommended": "Engineered stone tile flooring delivers the luxury natural stone aesthetic while providing superior dimensional stability for radiant heating applications. Robbins is a premium flooring manufacturer with proven residential expertise, and engineered stone construction minimizes thermal expansion issues common with solid stone over heated floors.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Engineered Stone"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Moonstone Collection",
+            "supplier": "Nasco Stone + Tile",
+            "product_id": "5ac437ab-9d7f-4999-9d27-7b23407da4ca",
+            "score": 0.85,
+            "why_recommended": "Mosaic textured tile format provides excellent slip resistance for wet bathroom areas while maintaining luxury appeal. Nasco Stone + Tile specializes in premium stone products, and the mosaic format allows for better thermal conductivity with radiant systems due to increased grout joint area for heat transfer.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Mosaic Tile"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Basalt",
+            "supplier": "Crossville",
+            "product_id": "32a3023b-4c6d-4556-a29a-ee8809184e42",
+            "score": 0.82,
+            "why_recommended": "Porcelain stone tile from Crossville combines natural basalt aesthetics with porcelain's superior water resistance and thermal properties. Crossville is a leading commercial tile manufacturer with extensive residential luxury lines, and porcelain's low water absorption makes it ideal for bathroom applications with radiant heating.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Porcelain"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "NaturaStone",
+            "supplier": "ASI | Architectural Systems, Inc.",
+            "product_id": "d1730541-081c-4972-85a9-bd1c57dcf76d",
+            "score": 0.8,
+            "why_recommended": "Hexagon mosaic format in porcelain provides distinctive luxury design while offering excellent compatibility with radiant systems. ASI's architectural focus ensures commercial-grade performance suitable for high-end residential applications, and the hexagon pattern adds visual interest while maintaining natural stone appearance.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Porcelain Mosaic"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Basic Stone",
+            "supplier": "Agrob Buchtal",
+            "product_id": "4fd7e793-c61e-45a7-8d85-db2035fb65ba",
+            "score": 0.78,
+            "why_recommended": "German-engineered porcelain stoneware from Agrob Buchtal delivers European luxury standards with exceptional technical performance. Porcelain stoneware construction provides optimal thermal conductivity for radiant heating while maintaining natural stone aesthetics and superior water resistance for bathroom environments.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Porcelain Stoneware"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across luxury stone flooring products, engineered stone materials, porcelain stone-look tiles, and premium tile manufacturers. Found strong options in engineered stone and porcelain categories from established residential and commercial suppliers, focusing on products suitable for wet areas and radiant heating compatibility.",
+        "gaps_and_caveats": "Verify thermal expansion coefficients and radiant heating compatibility with each manufacturer's technical team, and request samples to evaluate slip resistance ratings for wet bathroom conditions."
+      },
+      "collected_summary": {
+        "products_count": 16,
+        "materials_count": 20,
+        "certifications_count": 0,
+        "companies_count": 16,
+        "taxonomies_count": 4,
+        "product_ids": [
+          "4812a34e-f6d1-4efb-a9a3-842f64a580e9",
+          "5ac437ab-9d7f-4999-9d27-7b23407da4ca",
+          "26dd1ca7-5e23-4d35-9498-427e28659747",
+          "14690ae3-a298-4821-aede-f69ce820b6a8",
+          "5bd8983b-4fdb-4a5c-8907-e05937e9d4aa",
+          "986c9f4a-3478-4c34-a55d-de6adf0fe5d6",
+          "4fd7e793-c61e-45a7-8d85-db2035fb65ba",
+          "d1730541-081c-4972-85a9-bd1c57dcf76d",
+          "24e8aa5c-045b-4731-b943-ab604fc3113a",
+          "7fc2fc67-df60-4ba7-8642-11d426a18a4a",
+          "c04f075b-b0e8-4c59-8f52-09d29ba0aac4",
+          "38cdc6ed-8729-4b27-a30a-d207b01c7db6",
+          "40d31343-3fa6-425a-b09b-eaa30e181f70",
+          "32a3023b-4c6d-4556-a29a-ee8809184e42",
+          "3a6ac0b1-7415-4f91-9690-72bb3cdd03bf",
+          "86fc2d98-ca1e-440f-9648-f9ea88909c4f"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 3,
+        "recalled_count": 2,
+        "rate": 0.6666666666666666,
+        "matched": [
+          "stone",
+          "porcelain"
+        ],
+        "missed": [
+          "marble"
+        ]
+      }
+    },
+    {
+      "id": "q014",
+      "query": "modern apartment kitchen, easy-clean, durable for renters",
+      "category": "residential",
+      "status": "ok",
+      "elapsed_s": 26.12,
+      "expected_attributes": {
+        "required_features": [
+          "durable",
+          "low_maintenance"
+        ],
+        "preferred_materials": [
+          "LVT",
+          "vinyl"
+        ]
+      },
+      "response": {
+        "project_summary": "Modern apartment kitchen requiring easy-clean, durable surfaces for high-turnover rental property with cost-effective materials that resist stains and scratches.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Vinyl Deluxe Classic",
+            "supplier": "Duchateau",
+            "product_id": "95babeb2-c55d-46c3-8f1e-5e91e623fa82",
+            "score": 0.92,
+            "why_recommended": "Luxury vinyl plank delivers exceptional durability for high-turnover rentals with superior stain and scratch resistance. Duchateau's reputation for commercial-grade resilient flooring ensures long-term performance while maintaining modern aesthetics that appeal to tenants.",
+            "relevant_certifications": [
+              "FloorScore"
+            ],
+            "relevant_materials": [
+              "Luxury Vinyl Plank"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Plus",
+            "supplier": "Hurst Hardwoods LLC",
+            "product_id": "5c4c66e2-0e7d-4dd1-9962-4de67e6d89d3",
+            "score": 0.89,
+            "why_recommended": "Aquashield technology provides enhanced water resistance critical for kitchen environments. The luxury vinyl construction offers easy maintenance and cost-effectiveness perfect for rental properties while delivering contemporary appearance.",
+            "relevant_certifications": [
+              "FloorScore"
+            ],
+            "relevant_materials": [
+              "Aquashield Luxury Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "4601 Frozen Terra",
+            "supplier": "Caesarstone",
+            "product_id": "08afc12b-472f-4ce6-8863-3f4eb69c5fea",
+            "score": 0.87,
+            "why_recommended": "Caesarstone engineered quartz provides unmatched durability and stain resistance for kitchen countertops. Non-porous surface requires minimal maintenance while delivering premium modern aesthetics that increase rental property value.",
+            "relevant_certifications": [
+              "GREENGUARD Gold"
+            ],
+            "relevant_materials": [
+              "Engineered Quartz"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Adventuro",
+            "supplier": "Daltile",
+            "product_id": "0317c1b2-5fad-47a5-b927-6bb1e9a94937",
+            "score": 0.85,
+            "why_recommended": "Daltile's commercial flooring expertise ensures reliable performance in high-traffic rental applications. Luxury vinyl flooring provides excellent scratch resistance and easy cleaning protocols essential for property management efficiency.",
+            "relevant_certifications": [
+              "FloorScore"
+            ],
+            "relevant_materials": [
+              "Luxury Vinyl Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "5031 Statuario Maximus",
+            "supplier": "Caesarstone",
+            "product_id": "62bea1c5-03e4-4ed1-945c-76384bee5c06",
+            "score": 0.84,
+            "why_recommended": "Premium engineered quartz surface delivers exceptional stain and scratch resistance with marble-look aesthetics. Caesarstone's proven durability makes this ideal for rental kitchens requiring minimal maintenance between tenants.",
+            "relevant_certifications": [
+              "GREENGUARD Gold"
+            ],
+            "relevant_materials": [
+              "Engineered Quartz"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across luxury vinyl flooring and engineered quartz surfaces from established commercial manufacturers. Found strong options in resilient flooring and countertop categories with proven rental property performance from Duchateau, Caesarstone, and Daltile.",
+        "gaps_and_caveats": "Request product samples and installation specifications from Duchateau and Caesarstone to verify rental property durability ratings and maintenance protocols."
+      },
+      "collected_summary": {
+        "products_count": 24,
+        "materials_count": 16,
+        "certifications_count": 0,
+        "companies_count": 16,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "08afc12b-472f-4ce6-8863-3f4eb69c5fea",
+          "c4891151-32a1-4a61-a9bf-385fd82ac6e7",
+          "403409bb-6658-4784-bf93-4372997e8bf0",
+          "6025d98a-6ac3-408f-bb89-1902a039ecbe",
+          "62bea1c5-03e4-4ed1-945c-76384bee5c06",
+          "d7c80d58-18b3-4426-9979-f8f7eb74b32c",
+          "ba7abf8e-2246-4ed8-9049-9f445a360e05",
+          "9baff405-362c-45bf-9efc-7e344b728ad7",
+          "95babeb2-c55d-46c3-8f1e-5e91e623fa82",
+          "bfd01b3d-26a5-4c02-9ee9-34a29ebafd3e",
+          "8e2c7eab-81ab-4f66-bb19-97a6eba0900b",
+          "cbf74634-115a-4c2f-bcbd-81b6d1a70bed",
+          "5c4c66e2-0e7d-4dd1-9962-4de67e6d89d3",
+          "5363d6a4-dace-435c-8ab7-97ab6db8ace1",
+          "0317c1b2-5fad-47a5-b927-6bb1e9a94937",
+          "500408f0-0a9d-4bda-b14e-7c06f868565d",
+          "0199c8fb-dfe2-4b33-b957-45b9411ebb24",
+          "f61cc116-704f-4b9f-a1e0-b1c26a319ed5",
+          "68499516-9668-467b-87f6-0b22c4fa006c",
+          "d0559a32-4c52-4c69-a55f-b82fae02ac84",
+          "728fdb27-d67c-45b7-94b9-b90f21d50805",
+          "f0945936-b16c-479e-9f84-13eb3bbcbe08",
+          "6cbaa66e-6713-4f95-bdb6-f206f9bb72b1",
+          "4ec44b86-4702-4e07-ac61-869cd6271121"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 2,
+        "recalled_count": 1,
+        "rate": 0.5,
+        "matched": [
+          "vinyl"
+        ],
+        "missed": [
+          "lvt"
+        ]
+      }
+    },
+    {
+      "id": "q015",
+      "query": "K-12 elementary school classroom, acoustic, allergen-friendly",
+      "category": "educational",
+      "status": "ok",
+      "elapsed_s": 32.9,
+      "expected_attributes": {
+        "preferred_features": [
+          "acoustic",
+          "low_VOC"
+        ],
+        "required_certifications": [
+          "FloorScore",
+          "GREENGUARD"
+        ]
+      },
+      "response": {
+        "project_summary": "K-12 elementary school classroom requiring acoustic treatment and allergen-friendly materials for child-safe learning environment.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Sonic Panel\u00ae",
+            "supplier": "Lamvin",
+            "product_id": "6f24996c-3535-4e1f-890b-37310f39f575",
+            "score": 0.92,
+            "why_recommended": "Lamvin's Sonic Panel\u00ae delivers proven acoustic performance specifically designed for educational environments. As an acoustic wall and ceiling panel system, it addresses the primary requirement for sound control in active elementary classrooms while offering design flexibility for child-friendly spaces. Lamvin has established credibility in institutional markets where durability and safety are paramount.",
+            "relevant_certifications": [
+              "GREENGUARD Gold Certified"
+            ],
+            "relevant_materials": [
+              "Acoustic Panel"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Akustika 10 Wall",
+            "supplier": "FilzFelt",
+            "product_id": "a23fd5a6-30d5-4cc2-b0ee-cc3f27039c8a",
+            "score": 0.89,
+            "why_recommended": "FilzFelt's Akustika 10 Wall panel system combines excellent acoustic absorption with natural wool felt construction, inherently allergen-resistant and safe for children. The modular wall panel design allows for creative classroom configurations while providing consistent sound management. FilzFelt specializes in sustainable felt products with strong performance in educational settings.",
+            "relevant_certifications": [
+              "GREENGUARD Certified"
+            ],
+            "relevant_materials": [
+              "Felt Panel"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Wood Panels",
+            "supplier": "National Solutions",
+            "product_id": "c5ca7b8d-4ab6-4042-b65f-99d38052048a",
+            "score": 0.85,
+            "why_recommended": "National Solutions' Mode Acoustic Wallcovering wood panels provide natural material aesthetics ideal for elementary environments while delivering acoustic performance. Wood surfaces are naturally antimicrobial and create warm, welcoming classroom atmospheres that support learning. The wallcovering format ensures easy maintenance and durability against daily classroom activities.",
+            "relevant_certifications": [
+              "GREENGUARD Gold Certified"
+            ],
+            "relevant_materials": [
+              "Wood Panel"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Decorative Carved Panel",
+            "supplier": "Durapalm | Smith & Fong",
+            "product_id": "a1c88838-eaf8-496b-9ebd-eaf07a1ab2f9",
+            "score": 0.82,
+            "why_recommended": "Durapalm's acoustic ceiling and wall paneling offers sustainable bamboo construction with inherent antimicrobial properties perfect for school environments. Smith & Fong's reputation for eco-friendly materials aligns with modern educational facility standards. The decorative carved design adds visual interest while maintaining acoustic function, supporting both learning and aesthetic goals.",
+            "relevant_certifications": [
+              "GREENGUARD Certified"
+            ],
+            "relevant_materials": [
+              "Bamboo Panel"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Solid",
+            "supplier": "Acoufelt",
+            "product_id": "3c63d749-34a2-414d-9308-fa617f68f357",
+            "score": 0.78,
+            "why_recommended": "Acoufelt's Solid wall panels provide reliable acoustic performance with felt-based construction that naturally resists allergens and provides safe tactile surfaces for elementary students. The solid panel format ensures consistent coverage and simplified installation. Acoufelt specializes in acoustic solutions with proven educational market applications.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Felt Panel"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched acoustic treatment products specifically for educational environments, focusing on wall and ceiling panels from established institutional suppliers. Found strong options across felt, wood, and bamboo panel systems from manufacturers with proven K-12 track records including Lamvin, FilzFelt, and Durapalm.",
+        "gaps_and_caveats": "Request acoustic performance data (NRC ratings), GREENGUARD Gold certifications, and installation samples from top three suppliers to verify classroom suitability and allergen-free compliance."
+      },
+      "collected_summary": {
+        "products_count": 16,
+        "materials_count": 14,
+        "certifications_count": 16,
+        "companies_count": 16,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "e6eb416d-75a5-4b68-bb75-88b9f90cad20",
+          "e36e5f43-8fe5-439f-a9a0-cbb30c086b1d",
+          "bd7124d5-03b1-449e-84ba-c5af882b213a",
+          "9fd5df7d-7b24-49f0-9104-3b81837e8a18",
+          "6bfecfe8-4a9e-4b30-8101-6790ff21dd5b",
+          "55e943d3-a455-42b9-a76a-a646de552f43",
+          "3e10ec4e-f1bf-46f4-af6d-15f5015a6091",
+          "5e3c4849-e70a-48f1-b627-a13f1775d661",
+          "47995fe4-2d5e-46c4-8b76-2564039abbf3",
+          "6f24996c-3535-4e1f-890b-37310f39f575",
+          "c5ca7b8d-4ab6-4042-b65f-99d38052048a",
+          "a1c88838-eaf8-496b-9ebd-eaf07a1ab2f9",
+          "a23fd5a6-30d5-4cc2-b0ee-cc3f27039c8a",
+          "2ccaa8b2-ed11-4896-8c55-f3ec4f65fb42",
+          "21c9806b-2ef6-4c81-8f0f-8d31c83ede9d",
+          "3c63d749-34a2-414d-9308-fa617f68f357"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": true,
+        "required_certs": 2,
+        "matched_certs": 1,
+        "rate": 0.5,
+        "details": [
+          {
+            "cert": "floorscore",
+            "found": false
+          },
+          {
+            "cert": "greenguard",
+            "found": true
+          }
+        ]
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "no material expectations on this query"
+      }
+    },
+    {
+      "id": "q016",
+      "query": "university lecture hall with tiered seating, sound absorbing, durable",
+      "category": "educational",
+      "status": "ok",
+      "elapsed_s": 21.67,
+      "expected_attributes": {
+        "preferred_features": [
+          "acoustic",
+          "durable"
+        ],
+        "preferred_materials": [
+          "carpet_tile",
+          "rubber"
+        ]
+      },
+      "response": {
+        "project_summary": "University lecture hall with tiered seating requiring sound-absorbing materials that can withstand heavy traffic and meet educational facility standards.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Wood Panels",
+            "supplier": "National Solutions",
+            "product_id": "c5ca7b8d-4ab6-4042-b65f-99d38052048a",
+            "score": 0.92,
+            "why_recommended": "Mode Acoustic Wallcovering combines superior sound absorption with the durability needed for high-traffic educational environments. Wood panels offer excellent acoustic performance while providing the robust construction required for tiered seating installations where students frequently contact wall surfaces.",
+            "relevant_certifications": [
+              "255 Class A"
+            ],
+            "relevant_materials": [
+              "Wood Panels"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Wall Panel",
+            "supplier": "Sound Management Group",
+            "product_id": "47995fe4-2d5e-46c4-8b76-2564039abbf3",
+            "score": 0.89,
+            "why_recommended": "Sound Management Group's acoustical panels are specifically engineered for educational facilities where speech intelligibility is critical. These panels provide targeted sound absorption for lecture halls while meeting institutional durability standards for heavy student traffic.",
+            "relevant_certifications": [
+              "255 Class A"
+            ],
+            "relevant_materials": [
+              "Acoustical Panels"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Solid",
+            "supplier": "Acoufelt",
+            "product_id": "3c63d749-34a2-414d-9308-fa617f68f357",
+            "score": 0.86,
+            "why_recommended": "Acoufelt's solid wall panels deliver consistent acoustic performance across large lecture hall surfaces. The solid construction provides the impact resistance needed in tiered seating areas while maintaining effective sound absorption for optimal learning environments.",
+            "relevant_certifications": [
+              "255 Class A"
+            ],
+            "relevant_materials": [
+              "Wall Panels"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Ceiling Panels",
+            "supplier": "Western Noise Control",
+            "product_id": "c9eb18c2-e7c9-4f49-9686-bb1bb77864f0",
+            "score": 0.84,
+            "why_recommended": "Echotrol Acoustic ceiling panels complement wall treatments by controlling overhead reverberation in lecture halls. Western Noise Control specializes in educational acoustics, ensuring these panels meet university performance standards for speech clarity and durability.",
+            "relevant_certifications": [
+              "255 Class A"
+            ],
+            "relevant_materials": [
+              "Acoustic Ceiling Panels"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Acoustic Interior Wall Panel",
+            "supplier": "Cardinal Acoustics",
+            "product_id": "2ccaa8b2-ed11-4896-8c55-f3ec4f65fb42",
+            "score": 0.82,
+            "why_recommended": "Cardinal Acoustics' direct-attached wall panels offer reliable installation for tiered seating configurations. The direct attachment system ensures long-term durability under heavy use while providing consistent acoustic performance throughout the lecture hall.",
+            "relevant_certifications": [
+              "255 Class A"
+            ],
+            "relevant_materials": [
+              "Acoustic Wall Panels"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across acoustic treatment products, educational facility materials, and sound-absorbing wall and ceiling systems. Found strong options from specialized acoustic manufacturers including National Solutions, Sound Management Group, and Cardinal Acoustics, with products specifically designed for institutional applications requiring both acoustic performance and durability.",
+        "gaps_and_caveats": "Request NRC ratings and impact resistance data from top three suppliers to verify acoustic performance targets and durability requirements for tiered seating installations."
+      },
+      "collected_summary": {
+        "products_count": 23,
+        "materials_count": 14,
+        "certifications_count": 8,
+        "companies_count": 8,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "c9eb18c2-e7c9-4f49-9686-bb1bb77864f0",
+          "a42249e4-06ee-4aa2-94cd-59645ad4e531",
+          "5b49e148-35bf-42ab-abf2-e79e0cc940fb",
+          "1f6bf561-08bc-41e3-9043-3371428b6df4",
+          "6f24996c-3535-4e1f-890b-37310f39f575",
+          "c45fdcae-5b3c-4800-ac64-eabed1b024da",
+          "2b6c286b-8d6f-4b4d-8f04-1322af3716be",
+          "9cbed50b-b361-449e-a51b-d285bc853783",
+          "e1876b3b-7176-4382-b5b9-d1f48262ee5a",
+          "d8e026c0-8378-4e74-8e34-6355d2a0d177",
+          "b22b502b-d3b2-480c-ba19-132e60677170",
+          "b4948c25-547e-426e-a99b-3c011b98b5df",
+          "2ca1e3be-2701-40d0-bd6b-c323504be1b7",
+          "e109196c-720c-4ae7-b2b0-8429178070a7",
+          "a1838443-7bbf-40ca-8338-e065429064da",
+          "e5f71f4b-fdb0-4128-abc8-1bd23bf7c927",
+          "c5ca7b8d-4ab6-4042-b65f-99d38052048a",
+          "47995fe4-2d5e-46c4-8b76-2564039abbf3",
+          "3c63d749-34a2-414d-9308-fa617f68f357",
+          "2ccaa8b2-ed11-4896-8c55-f3ec4f65fb42",
+          "21c9806b-2ef6-4c81-8f0f-8d31c83ede9d",
+          "a1c88838-eaf8-496b-9ebd-eaf07a1ab2f9",
+          "a23fd5a6-30d5-4cc2-b0ee-cc3f27039c8a"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 2,
+        "recalled_count": 0,
+        "rate": 0.0,
+        "matched": [],
+        "missed": [
+          "carpet tile",
+          "rubber"
+        ]
+      }
+    },
+    {
+      "id": "q017",
+      "query": "school cafeteria, easy clean, allergy-safe, high traffic",
+      "category": "educational",
+      "status": "ok",
+      "elapsed_s": 27.24,
+      "expected_attributes": {
+        "required_features": [
+          "cleanable",
+          "high_traffic"
+        ],
+        "preferred_certifications": [
+          "FloorScore"
+        ]
+      },
+      "response": {
+        "project_summary": "School cafeteria flooring requiring high traffic durability, easy cleaning and sanitization, allergy-safe materials, and food service compliance.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "WPAM-12",
+            "supplier": "ProTek Systems",
+            "product_id": "b7f07063-dc81-4277-83ab-744ac48cde5a",
+            "score": 0.85,
+            "why_recommended": "Antimicrobial wall covering specifically designed for food service environments where hygiene is critical. The built-in antimicrobial properties address allergy concerns and food safety requirements while providing easy sanitization for school cafeteria operations.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Antimicrobial Wall Covering"
+            ],
+            "potential_concerns": "This is a wall covering product, not flooring \u2014 verify if wall protection is part of the scope or if flooring-specific products are needed"
+          },
+          {
+            "rank": 2,
+            "product_name": "Modular Wall Panel - Stainless Steel",
+            "supplier": "Nicos Group",
+            "product_id": "aa17d5de-fed6-4308-9bd4-2b5dbe049571",
+            "score": 0.8,
+            "why_recommended": "Stainless steel cleanroom system panels offer superior cleanability and chemical resistance essential for food service areas. Non-porous surface prevents bacterial growth and allergen accumulation while withstanding frequent sanitization protocols required in school cafeterias.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Stainless Steel"
+            ],
+            "potential_concerns": "Wall panel system rather than flooring \u2014 confirm application scope includes wall protection or if flooring solutions are the primary need"
+          },
+          {
+            "rank": 3,
+            "product_name": "Decathlon",
+            "supplier": "Matter Surfaces",
+            "product_id": "ffe9df3f-fa30-4ee9-a0f1-31cdcbe43c2c",
+            "score": 0.75,
+            "why_recommended": "Recycled rubber flooring provides excellent slip resistance and durability for high-traffic cafeteria environments. Rubber's natural antimicrobial properties and easy maintenance make it suitable for food service areas where spill cleanup and sanitization are frequent.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Recycled Rubber"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Evolution",
+            "supplier": "Dinoflex",
+            "product_id": "e5594f68-46f4-4218-a8df-91ad0f3bd321",
+            "score": 0.72,
+            "why_recommended": "Commercial flooring system from established manufacturer known for high-performance rubber surfaces. Dinoflex products typically offer excellent durability and slip resistance suitable for institutional food service applications with heavy foot traffic.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Commercial Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "PL-100",
+            "supplier": "Pawling Corporation",
+            "product_id": "217fdae6-832f-493a-8b81-79f6be736400",
+            "score": 0.68,
+            "why_recommended": "Interlocking tile system allows for easy replacement of damaged sections and simplified maintenance in high-wear areas. The modular design facilitates thorough cleaning around equipment and enables quick repairs without full floor replacement in busy cafeteria environments.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Interlocking Tiles Floor"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across antimicrobial materials, commercial flooring systems, and food service-appropriate surfaces. Found strong options in rubber flooring and antimicrobial wall systems from established commercial suppliers, though limited specific cafeteria flooring products in current database.",
+        "gaps_and_caveats": "Request detailed specifications on slip resistance ratings, NSF food service compliance, and GREENGUARD certifications from suppliers. Verify whether wall protection systems are included in scope or if flooring-only solutions are required."
+      },
+      "collected_summary": {
+        "products_count": 16,
+        "materials_count": 16,
+        "certifications_count": 16,
+        "companies_count": 8,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "ffe9df3f-fa30-4ee9-a0f1-31cdcbe43c2c",
+          "fed02948-7287-43f3-b5fc-5d187e109010",
+          "217fdae6-832f-493a-8b81-79f6be736400",
+          "5cf7152d-94d8-4377-a88e-9e4db4647c38",
+          "5eef9df1-ca52-4c46-9ed1-66901b28d460",
+          "ec61af2a-484a-409a-a29c-a569fe6ddb61",
+          "e5594f68-46f4-4218-a8df-91ad0f3bd321",
+          "36ab9152-caa3-4dd5-b3eb-3d6869bb5a97",
+          "b7f07063-dc81-4277-83ab-744ac48cde5a",
+          "aa17d5de-fed6-4308-9bd4-2b5dbe049571",
+          "a5585a37-3da8-43aa-aa2b-75fc2c3ded69",
+          "634f1b32-a004-4274-a6ad-7860e31f96cb",
+          "5e899c70-450e-4184-b7d4-b17105bf42cd",
+          "d2683ab5-46a9-47ed-a5bf-e60722b06353",
+          "df6cce4d-cf93-461b-b105-b6385a9e98f4",
+          "9e204af3-8ed4-4a3b-ba40-f216f51b0528"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "no material expectations on this query"
+      }
+    },
+    {
+      "id": "q018",
+      "query": "STEM lab with chemical exposure, chemical-resistant epoxy preferred",
+      "category": "educational",
+      "status": "ok",
+      "elapsed_s": 24.98,
+      "expected_attributes": {
+        "required_features": [
+          "chemical_resistant"
+        ],
+        "preferred_materials": [
+          "epoxy",
+          "rubber"
+        ]
+      },
+      "response": {
+        "project_summary": "STEM laboratory requiring chemical-resistant epoxy flooring systems to withstand chemical exposure while providing laboratory-grade durability and easy maintenance.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Stonchem 300",
+            "supplier": "Stonhard",
+            "product_id": "4c1d84e9-f522-4ff9-b17a-13c725a33f8c",
+            "score": 0.95,
+            "why_recommended": "Stonhard's premier epoxy flooring system specifically engineered for laboratory environments with chemical exposure. Stonchem 300 delivers the exact epoxy chemistry requested with proven performance in STEM facilities. Stonhard is the industry leader in laboratory flooring with decades of chemical resistance testing and field performance data.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Epoxy Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Stonchem 400",
+            "supplier": "Stonhard",
+            "product_id": "ead631c7-f91a-432c-957c-88ef7e152142",
+            "score": 0.94,
+            "why_recommended": "Enhanced epoxy formulation from Stonhard offering superior chemical resistance for demanding laboratory applications. Stonchem 400 provides the durability and maintenance characteristics essential for STEM environments while meeting the architect's preference for epoxy systems.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Epoxy Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Stonclad ESD",
+            "supplier": "Stonhard",
+            "product_id": "0c19ce82-8155-429d-bb8b-725db6ec62cd",
+            "score": 0.88,
+            "why_recommended": "Epoxy mortar system with electrostatic discharge protection, ideal for STEM labs with sensitive electronic equipment. Provides chemical resistance in a thicker, more robust system that can handle heavy laboratory equipment loads while maintaining easy cleaning protocols.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Epoxy Mortar Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Stonclad GR",
+            "supplier": "Stonhard",
+            "product_id": "63461ff3-6a8d-4374-a310-20a0a99714bd",
+            "score": 0.85,
+            "why_recommended": "Heavy-duty epoxy mortar flooring designed for industrial and laboratory applications requiring maximum chemical resistance. The mortar system provides enhanced durability for high-traffic STEM facilities while maintaining the epoxy chemistry specified.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Epoxy Mortar Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Stonclad XPRESS Flooring",
+            "supplier": "Stonhard",
+            "product_id": "48013835-863e-4017-89ab-11151f87d902",
+            "score": 0.82,
+            "why_recommended": "Fast-cure methyl methacrylate system from Stonhard offering excellent chemical resistance with rapid installation for occupied facilities. While not traditional epoxy, provides comparable performance with reduced downtime during installation in active STEM environments.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Methyl Methacrylate Troweled"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 6,
+            "product_name": "Chemical Resistant",
+            "supplier": "Summitville Tiles Inc.",
+            "product_id": "55c55340-7bce-48fc-8928-f3a6ffb580b1",
+            "score": 0.65,
+            "why_recommended": "Ceramic brick tile specifically formulated for chemical resistance, offering an alternative to epoxy systems. Provides excellent chemical resistance and easy maintenance, though differs from the preferred epoxy specification.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Brick Tile"
+            ],
+            "potential_concerns": "Tile system rather than seamless epoxy as specified"
+          }
+        ],
+        "search_strategy_summary": "Searched laboratory flooring systems, chemical-resistant epoxy products, and Stonhard's comprehensive laboratory flooring portfolio. Found excellent matches in Stonhard's Stonchem and Stonclad product lines, which dominate the laboratory flooring market with proven chemical resistance performance.",
+        "gaps_and_caveats": "Request chemical resistance charts and performance data from Stonhard for specific chemicals used in your STEM lab to verify compatibility and warranty coverage."
+      },
+      "collected_summary": {
+        "products_count": 21,
+        "materials_count": 14,
+        "certifications_count": 8,
+        "companies_count": 8,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "4c1d84e9-f522-4ff9-b17a-13c725a33f8c",
+          "ead631c7-f91a-432c-957c-88ef7e152142",
+          "48013835-863e-4017-89ab-11151f87d902",
+          "0c19ce82-8155-429d-bb8b-725db6ec62cd",
+          "63461ff3-6a8d-4374-a310-20a0a99714bd",
+          "544d2ed8-f0fc-4013-b464-084c5da96218",
+          "8fdd3689-b5f8-44af-a373-f9ca5f06b143",
+          "df40a2cd-95c7-4c1d-8872-db90e08124b5",
+          "e6fd04d3-4488-4de7-9746-692a299575b3",
+          "ae2d486c-2ded-46dc-90f0-aca4b70fc517",
+          "4d7421e5-cd03-42bc-8b84-dcb34bc2ec17",
+          "1572648a-e5e2-4910-afac-18cf171e0b5a",
+          "5ee2baf7-1f1b-4a40-b405-77f7f1f863bb",
+          "a756fcdc-21a8-4170-aed9-dc088e2f5738",
+          "1e970f77-f0ab-4991-8cc6-9d17e4c15a42",
+          "e4ed5a64-46e3-4a2f-9a19-0885fd0292d4",
+          "831f252b-fef0-41a7-900f-c4f04bee8ccf",
+          "83169bc0-dfbf-4208-968f-a40b6237cb78",
+          "55c55340-7bce-48fc-8928-f3a6ffb580b1",
+          "d4c0e239-a721-4c0a-a118-8582788a1229",
+          "7e083da6-d8b2-48ea-9e1d-d7f2a70bfb0a"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 6,
+        "grounded": 6,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 2,
+        "recalled_count": 1,
+        "rate": 0.5,
+        "matched": [
+          "epoxy"
+        ],
+        "missed": [
+          "rubber"
+        ]
+      }
+    },
+    {
+      "id": "q019",
+      "query": "dormitory hallway, durable for dragging luggage, easy to repair sections",
+      "category": "educational",
+      "status": "ok",
+      "elapsed_s": 23.96,
+      "expected_attributes": {
+        "required_features": [
+          "durable",
+          "modular_repair"
+        ],
+        "preferred_materials": [
+          "LVT",
+          "carpet_tile"
+        ]
+      },
+      "response": {
+        "project_summary": "Dormitory hallway flooring requiring high durability for wheeled luggage traffic, easy sectional repair capability, and institutional-grade performance.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Homogeneous Sheet",
+            "supplier": "AHF Contract",
+            "product_id": "bed168d6-adbd-4ce5-b82e-971a2f6c373e",
+            "score": 0.92,
+            "why_recommended": "Homogeneous sheet vinyl is the optimal choice for dormitory hallways \u2014 through-pattern construction means damage from luggage wheels can be repaired by sanding and refinishing without replacement. AHF Contract specializes in institutional flooring with proven durability for high-traffic educational environments.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Sports Rubber Sheet",
+            "supplier": "Tarkett",
+            "product_id": "71d78538-2890-4a83-b105-a3fdedf27ad2",
+            "score": 0.88,
+            "why_recommended": "Tarkett's Johnsonite Replay rubber sheet offers exceptional durability for wheeled traffic and can be patched for localized repairs. Tarkett's institutional track record and rubber's inherent resilience make this ideal for heavy-use dormitory corridors where luggage dragging is constant.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Solid Rubber Tile Flooring",
+            "supplier": "Zandur, Inc.",
+            "product_id": "36ab9152-caa3-4dd5-b3eb-3d6869bb5a97",
+            "score": 0.85,
+            "why_recommended": "Zandur's commercial rubber tiles provide excellent sectional repair capability \u2014 individual damaged tiles can be replaced without affecting surrounding areas. The solid rubber construction offers superior durability against luggage wheels and rolling loads typical in dormitory settings.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Adventuro",
+            "supplier": "Daltile",
+            "product_id": "0317c1b2-5fad-47a5-b927-6bb1e9a94937",
+            "score": 0.78,
+            "why_recommended": "Daltile's luxury vinyl flooring combines institutional durability with easy plank replacement for repairs. Daltile's commercial flooring expertise ensures appropriate wear layer thickness and locking systems that facilitate individual plank replacement in high-traffic dormitory applications.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Luxury Vinyl Plank"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Essentials",
+            "supplier": "ProSpec LLC",
+            "product_id": "cbf74634-115a-4c2f-bcbd-81b6d1a70bed",
+            "score": 0.75,
+            "why_recommended": "ProSpec's institutional-grade luxury vinyl plank offers cost-effective durability with individual plank replacement capability. The click-lock installation system allows for easy sectional repairs without adhesive removal, making maintenance efficient in dormitory environments.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Luxury Vinyl Plank"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across resilient flooring products prioritizing institutional-grade materials, repair capabilities, and wheeled traffic durability. Found strong options in homogeneous sheet vinyl and rubber categories from established commercial suppliers, plus luxury vinyl planks offering modular replacement benefits.",
+        "gaps_and_caveats": "Request wear layer specifications and repair procedures from top suppliers, particularly homogeneous sheet thickness and rubber durometer ratings for luggage wheel resistance verification."
+      },
+      "collected_summary": {
+        "products_count": 32,
+        "materials_count": 8,
+        "certifications_count": 0,
+        "companies_count": 16,
+        "taxonomies_count": 3,
+        "product_ids": [
+          "95babeb2-c55d-46c3-8f1e-5e91e623fa82",
+          "bfd01b3d-26a5-4c02-9ee9-34a29ebafd3e",
+          "8e2c7eab-81ab-4f66-bb19-97a6eba0900b",
+          "cbf74634-115a-4c2f-bcbd-81b6d1a70bed",
+          "5c4c66e2-0e7d-4dd1-9962-4de67e6d89d3",
+          "5363d6a4-dace-435c-8ab7-97ab6db8ace1",
+          "0317c1b2-5fad-47a5-b927-6bb1e9a94937",
+          "500408f0-0a9d-4bda-b14e-7c06f868565d",
+          "eaa744d2-20ff-410c-90ad-073c3b6157d3",
+          "07107189-b317-48a4-b653-6e8f2fb0f426",
+          "71d78538-2890-4a83-b105-a3fdedf27ad2",
+          "36ab9152-caa3-4dd5-b3eb-3d6869bb5a97",
+          "90af0b8f-156a-427d-a1e1-72e8a27866c6",
+          "002fcc75-8cc3-4dc4-b29a-0aedd91d3b33",
+          "ce427014-a156-4ac9-b67c-1fe930b223fb",
+          "5d8694be-f949-49f3-b4d3-70f282b13dae",
+          "5545a2b7-4f4f-4315-8750-8ddd097daf66",
+          "a79a5023-71be-4d9d-b9a4-4dd129cbb331",
+          "27fc1916-04f5-4647-93ec-b930850a444a",
+          "c5b37a1d-2e2b-43a6-84e7-f8ecef852dc5",
+          "4340594b-a5ce-441c-bf75-15d74e817d5f",
+          "a2b83ab4-dbb1-4b69-a5ed-4ad8d94e8fee",
+          "170aae91-c515-483d-a207-7c71c8cb73c0",
+          "b8dfeca0-4ac0-4d3e-8c93-65259ab51736",
+          "bed168d6-adbd-4ce5-b82e-971a2f6c373e",
+          "fb636e66-1a3d-445a-9225-79f496d5d4f1",
+          "8b70fbe9-94f4-45e3-9dcd-2f7ddcb3d572",
+          "d794e56a-1944-4cda-94d7-629509004e13",
+          "1b7d5f36-a052-4be4-aca8-889a78268611",
+          "cd374548-fc9b-4a35-9c4f-288d988e83ff",
+          "5806964f-9af2-418b-852a-5c19f173751a",
+          "9167abc0-7c52-4cfd-8336-24b6223ca335"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 2,
+        "recalled_count": 0,
+        "rate": 0.0,
+        "matched": [],
+        "missed": [
+          "lvt",
+          "carpet tile"
+        ]
+      }
+    },
+    {
+      "id": "q020",
+      "query": "courthouse lobby, formal aesthetic, ADA-compliant, low maintenance",
+      "category": "institutional",
+      "status": "ok",
+      "elapsed_s": 22.02,
+      "expected_attributes": {
+        "required_certifications": [
+          "ADA"
+        ],
+        "preferred_aesthetic": "formal",
+        "preferred_features": [
+          "low_maintenance"
+        ]
+      },
+      "response": {
+        "project_summary": "Courthouse lobby requiring formal aesthetic with ADA compliance, high durability, and low maintenance for heavy public traffic.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Berlin",
+            "supplier": "Interceramic Tile and Stone Gallery",
+            "product_id": "c989143c-37c4-477a-a44f-402e848d6711",
+            "score": 0.92,
+            "why_recommended": "Porcelain tile delivers the formal, dignified aesthetic essential for courthouse lobbies while providing exceptional durability for heavy public traffic. Interceramic's Berlin series offers the low maintenance and slip-resistant properties required for ADA compliance in institutional settings.",
+            "relevant_certifications": [
+              "ADA Compliant Options"
+            ],
+            "relevant_materials": [
+              "Porcelain"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Savoy",
+            "supplier": "Interceramic Tile and Stone Gallery",
+            "product_id": "1730a92a-2e25-411e-a682-ed714ce3f7a9",
+            "score": 0.9,
+            "why_recommended": "Another excellent porcelain option from Interceramic's institutional-grade collection. The Savoy series provides the refined appearance appropriate for courthouse environments with proven performance in high-traffic public spaces and minimal maintenance requirements.",
+            "relevant_certifications": [
+              "ADA Compliant Options"
+            ],
+            "relevant_materials": [
+              "Porcelain"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Omnia",
+            "supplier": "Interceramic Tile and Stone Gallery",
+            "product_id": "434556b9-10b8-42dc-b031-7d8584c5383e",
+            "score": 0.88,
+            "why_recommended": "Interceramic's Omnia porcelain series combines the formal aesthetic required for courthouse applications with the durability and low maintenance characteristics essential for public institutional spaces. Porcelain's inherent slip resistance supports ADA compliance requirements.",
+            "relevant_certifications": [
+              "ADA Compliant Options"
+            ],
+            "relevant_materials": [
+              "Porcelain"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Boost",
+            "supplier": "Interceramic Tile and Stone Gallery",
+            "product_id": "cd281581-572b-4752-8aa0-24edb3c482f6",
+            "score": 0.86,
+            "why_recommended": "The Boost porcelain series offers contemporary formal styling suitable for modern courthouse design while maintaining the practical benefits of porcelain: exceptional durability, stain resistance, and easy maintenance critical for high-traffic public lobbies.",
+            "relevant_certifications": [
+              "ADA Compliant Options"
+            ],
+            "relevant_materials": [
+              "Porcelain"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Porcelain Tile",
+            "supplier": "Gigacer",
+            "product_id": "815b6874-aec1-4a02-82e9-c8d33f101ef2",
+            "score": 0.82,
+            "why_recommended": "Gigacer's Light Rectangle Mosaic porcelain provides an alternative aesthetic approach with sophisticated patterning appropriate for formal courthouse environments. The mosaic format can enhance slip resistance while maintaining the durability and low maintenance benefits of porcelain tile.",
+            "relevant_certifications": [
+              "ADA Compliant Options"
+            ],
+            "relevant_materials": [
+              "Porcelain"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Focused on porcelain tile products from established commercial suppliers, emphasizing formal aesthetics, institutional durability, and ADA compliance. Found strong options from Interceramic's commercial porcelain collections and Gigacer's architectural tile systems, all suitable for high-traffic courthouse applications.",
+        "gaps_and_caveats": "Request slip-resistance test data (DCOF ratings) and specific porcelain series samples from Interceramic and Gigacer representatives to verify courthouse-appropriate aesthetics and ADA compliance documentation."
+      },
+      "collected_summary": {
+        "products_count": 24,
+        "materials_count": 16,
+        "certifications_count": 8,
+        "companies_count": 8,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "fabd8a9f-723b-4b10-a80e-a82bf19bbd29",
+          "38cdc6ed-8729-4b27-a30a-d207b01c7db6",
+          "c04f075b-b0e8-4c59-8f52-09d29ba0aac4",
+          "8baaeef0-39bd-4780-b20b-79804eb1371a",
+          "023310d4-5dab-4813-bc5b-19e0ba7e90cf",
+          "40d31343-3fa6-425a-b09b-eaa30e181f70",
+          "9e5f5561-f89a-47d9-ae06-72aa08bad0b2",
+          "3502c2eb-9518-4763-94d1-aa202f7f2d8b",
+          "3be03598-bc7e-4e51-867e-043c7648173a",
+          "c989143c-37c4-477a-a44f-402e848d6711",
+          "cd281581-572b-4752-8aa0-24edb3c482f6",
+          "1730a92a-2e25-411e-a682-ed714ce3f7a9",
+          "434556b9-10b8-42dc-b031-7d8584c5383e",
+          "5feab740-2822-4413-af0c-43d0ee57f968",
+          "815b6874-aec1-4a02-82e9-c8d33f101ef2",
+          "beba9866-f56a-4e7f-b0d1-d0214932979c",
+          "c5ca7b8d-4ab6-4042-b65f-99d38052048a",
+          "47995fe4-2d5e-46c4-8b76-2564039abbf3",
+          "6f24996c-3535-4e1f-890b-37310f39f575",
+          "3c63d749-34a2-414d-9308-fa617f68f357",
+          "2ccaa8b2-ed11-4896-8c55-f3ec4f65fb42",
+          "21c9806b-2ef6-4c81-8f0f-8d31c83ede9d",
+          "a1c88838-eaf8-496b-9ebd-eaf07a1ab2f9",
+          "a23fd5a6-30d5-4cc2-b0ee-cc3f27039c8a"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": true,
+        "required_certs": 1,
+        "matched_certs": 1,
+        "rate": 1.0,
+        "details": [
+          {
+            "cert": "ada",
+            "found": true
+          }
+        ]
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "no material expectations on this query"
+      }
+    },
+    {
+      "id": "q021",
+      "query": "library reading room, acoustic, warm wood look, low VOC",
+      "category": "institutional",
+      "status": "ok",
+      "elapsed_s": 25.29,
+      "expected_attributes": {
+        "preferred_features": [
+          "acoustic",
+          "low_VOC"
+        ],
+        "preferred_materials": [
+          "wood",
+          "engineered_wood"
+        ]
+      },
+      "response": {
+        "project_summary": "Library reading room requiring acoustic wall panels with warm wood appearance and low VOC emissions for educational environment.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Wood Panels",
+            "supplier": "National Solutions",
+            "product_id": "c5ca7b8d-4ab6-4042-b65f-99d38052048a",
+            "score": 0.92,
+            "why_recommended": "Mode Acoustic Wallcovering delivers the complete solution for this library reading room \u2014 engineered wood panels providing both acoustic performance and authentic warm wood aesthetics. National Solutions specializes in educational environments, ensuring this product meets library-specific durability and maintenance requirements while addressing all four project criteria in a single system.",
+            "relevant_certifications": [
+              "GREENGUARD Gold Certified"
+            ],
+            "relevant_materials": [
+              "Wood Veneer on Engineered Wood Core"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "WoodTrends Linear",
+            "supplier": "Sound Seal",
+            "product_id": "5391aeb3-ffc8-41c0-ab2c-88774209a519",
+            "score": 0.88,
+            "why_recommended": "Sound Seal's WoodTrends Linear offers proven acoustic wood panel technology specifically engineered for educational spaces. The linear design provides contemporary wood aesthetics while delivering measurable noise reduction performance critical for reading room concentration. Sound Seal's 40+ year track record in institutional acoustics ensures reliable low-emission formulations.",
+            "relevant_certifications": [
+              "GREENGUARD Certified"
+            ],
+            "relevant_materials": [
+              "Engineered Wood"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "WoodWorks ACGI Flat Panel",
+            "supplier": "Armstrong World Industries",
+            "product_id": "f5049e50-2b2d-4c0a-8bdc-37ef615e8efc",
+            "score": 0.85,
+            "why_recommended": "Armstrong's WoodWorks ACGI combines their commercial ceiling expertise with acoustic performance for library applications. The flat panel design provides clean wood grain appearance while meeting institutional acoustic requirements. Armstrong's established low-VOC manufacturing processes and extensive educational project portfolio make this a reliable specification for reading room environments.",
+            "relevant_certifications": [
+              "GREENGUARD Gold Certified"
+            ],
+            "relevant_materials": [
+              "Engineered Wood"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Rectangle Wood Fiber",
+            "supplier": "Acoustical Solutions",
+            "product_id": "73a05649-31c2-4ddf-a64b-c98f8f73f310",
+            "score": 0.82,
+            "why_recommended": "Acoustical Solutions' decorative wood fiber panels provide natural wood aesthetics with engineered acoustic performance for educational environments. The rectangular format offers flexible installation patterns while the wood fiber construction delivers both sound absorption and warm visual appeal essential for library reading spaces.",
+            "relevant_certifications": [
+              "Indoor Air Comfort GOLD"
+            ],
+            "relevant_materials": [
+              "Wood Veneer on Engineered Wood Core"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Decorative Carved Panel",
+            "supplier": "Durapalm | Smith & Fong",
+            "product_id": "a1c88838-eaf8-496b-9ebd-eaf07a1ab2f9",
+            "score": 0.78,
+            "why_recommended": "Durapalm's carved acoustic panels offer sustainable bamboo construction with sophisticated wood-like appearance and proven acoustic performance. Smith & Fong's expertise in low-emission bamboo products ensures excellent indoor air quality while the decorative carved surface provides visual interest appropriate for library reading environments.",
+            "relevant_certifications": [
+              "GREENGUARD Certified"
+            ],
+            "relevant_materials": [
+              "Engineered Wood"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across acoustic wall panel manufacturers, wood-appearance acoustic products, low-VOC certifications, and educational space specialists. Found strong options in engineered wood acoustic panels from established commercial suppliers including National Solutions, Sound Seal, and Armstrong, all with documented low-emission credentials and library project experience.",
+        "gaps_and_caveats": "Request acoustic performance data (NRC ratings) and VOC emission test reports from top three suppliers to verify reading room suitability and LEED credit contributions."
+      },
+      "collected_summary": {
+        "products_count": 18,
+        "materials_count": 16,
+        "certifications_count": 16,
+        "companies_count": 8,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "c5ca7b8d-4ab6-4042-b65f-99d38052048a",
+          "aa5e55ea-92fb-469c-b5ee-654dea7aa089",
+          "73a05649-31c2-4ddf-a64b-c98f8f73f310",
+          "a1c88838-eaf8-496b-9ebd-eaf07a1ab2f9",
+          "4586393f-6379-40b7-9af2-378a4eebb514",
+          "2ccaa8b2-ed11-4896-8c55-f3ec4f65fb42",
+          "86f78207-f13c-4d49-b26e-0323a73ea09e",
+          "4c2c15ea-4f25-4890-bd6a-42c6485043e5",
+          "55e0d7ff-1e75-43de-b8fc-81a28fd4e117",
+          "e126455f-329f-4678-9e55-2a8a6825b417",
+          "5391aeb3-ffc8-41c0-ab2c-88774209a519",
+          "f5049e50-2b2d-4c0a-8bdc-37ef615e8efc",
+          "c3194d52-5467-4175-ae1b-f7afdb7b9967",
+          "1e38f886-6bfd-4cfe-ae04-5eea1abef566",
+          "bb5c8528-1e02-4f0c-b3a8-725fb2bee96c",
+          "0175de9c-e361-47cc-acfa-3fe862f5673e",
+          "6f24996c-3535-4e1f-890b-37310f39f575",
+          "9034f4e3-44b0-46c0-bcf8-b08a124e3430"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 2,
+        "recalled_count": 2,
+        "rate": 1.0,
+        "matched": [
+          "wood",
+          "engineered wood"
+        ],
+        "missed": []
+      }
+    },
+    {
+      "id": "q022",
+      "query": "museum gallery floor, scratch-resistant, neutral aesthetic, conservation-grade",
+      "category": "institutional",
+      "status": "ok",
+      "elapsed_s": 22.78,
+      "expected_attributes": {
+        "required_features": [
+          "scratch_resistant"
+        ],
+        "preferred_aesthetic": "neutral"
+      },
+      "response": {
+        "project_summary": "Museum gallery flooring requiring scratch-resistant, conservation-grade materials with neutral aesthetics and minimal maintenance for protecting valuable artwork and artifacts.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Gallerist",
+            "supplier": "Metropolitan Hardwood Floors USA",
+            "product_id": "340a577f-2065-4649-8002-1ae2c56d843d",
+            "score": 0.92,
+            "why_recommended": "Purpose-built for gallery environments with Art Walk 2.5 technology, this hardwood flooring system delivers the scratch resistance and neutral aesthetic essential for museum spaces. Metropolitan's gallery-specific engineering addresses conservation requirements while providing the durability needed for high-traffic exhibition areas.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Engineered Hardwood"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Exhibit Space",
+            "supplier": "Metropolitan Hardwood Floors USA",
+            "product_id": "ac25093e-ce5b-4863-a56b-062f5221a9de",
+            "score": 0.89,
+            "why_recommended": "Specifically designed for exhibition environments, this Art Walk 2.5 system from Metropolitan provides museum-grade performance with enhanced scratch resistance. The neutral aesthetic and low-maintenance characteristics make it ideal for protecting valuable collections while maintaining visual neutrality.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Engineered Hardwood"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Gallery",
+            "supplier": "Inhaus Surfaces",
+            "product_id": "e19a5826-98b7-4bd0-b06e-3eb5ce7e7425",
+            "score": 0.85,
+            "why_recommended": "Ceramin technology delivers exceptional scratch resistance and dimensional stability critical for museum environments. This gallery-named product indicates specific design consideration for exhibition spaces, offering conservation-appropriate performance with minimal off-gassing and neutral appearance.",
+            "relevant_certifications": [
+              "GREENGUARD Certified"
+            ],
+            "relevant_materials": [
+              "Ceramic-Enhanced Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Stonclad XPRESS Flooring",
+            "supplier": "Stonhard",
+            "product_id": "48013835-863e-4017-89ab-11151f87d902",
+            "score": 0.78,
+            "why_recommended": "Methyl methacrylate troweled system provides superior scratch resistance and seamless installation ideal for museum conservation requirements. Stonhard's reputation for high-performance commercial flooring ensures durability while the monolithic surface eliminates joints that could harbor contaminants affecting artwork.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Methyl Methacrylate"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Eternal Step SR",
+            "supplier": "Forbo Flooring Systems",
+            "product_id": "25b491b5-7eb0-498f-b604-bbab4b7bfdd4",
+            "score": 0.72,
+            "why_recommended": "Forbo's safety flooring technology provides excellent scratch resistance and low-maintenance performance suitable for museum applications. The neutral aesthetic options and proven commercial durability make this appropriate for gallery spaces requiring conservation-grade environmental control.",
+            "relevant_certifications": [
+              "GREENGUARD Gold Certified"
+            ],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched museum and gallery-specific flooring products, scratch-resistant materials, conservation-grade systems, and low-emission certifications. Found strong matches in purpose-built gallery products from Metropolitan Hardwood and specialized commercial systems from established manufacturers like Stonhard and Forbo.",
+        "gaps_and_caveats": "Request conservation compliance documentation and VOC emission data from Metropolitan and Inhaus representatives. Verify scratch resistance ratings meet museum standards and confirm installation methods align with climate control requirements."
+      },
+      "collected_summary": {
+        "products_count": 16,
+        "materials_count": 24,
+        "certifications_count": 8,
+        "companies_count": 8,
+        "taxonomies_count": 3,
+        "product_ids": [
+          "340a577f-2065-4649-8002-1ae2c56d843d",
+          "e19a5826-98b7-4bd0-b06e-3eb5ce7e7425",
+          "ac25093e-ce5b-4863-a56b-062f5221a9de",
+          "28ae3040-3697-4d8e-9065-f172c135d481",
+          "aefd074a-29c7-4b7b-a2c4-c716a3fc9cd4",
+          "df9928f5-fe12-42a6-b07a-74e248850c15",
+          "670de09d-6b15-472d-a912-1a54941bcd76",
+          "33dd1128-aa60-428c-b67e-196947b7488a",
+          "48013835-863e-4017-89ab-11151f87d902",
+          "80a59f8e-f998-4c0e-8d0b-4db213e040a4",
+          "25b491b5-7eb0-498f-b604-bbab4b7bfdd4",
+          "19edada5-5bad-45b9-be72-2811bb8a4f3d",
+          "4df41102-7616-4fe0-a4ca-753a23ee5c61",
+          "7e083da6-d8b2-48ea-9e1d-d7f2a70bfb0a",
+          "8fdd3689-b5f8-44af-a373-f9ca5f06b143",
+          "581ff28b-7b5b-4c18-826c-e4c7a1ecc32d"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "no material expectations on this query"
+      }
+    },
+    {
+      "id": "q023",
+      "query": "performing arts center stage, dance-floor compatible, durable",
+      "category": "institutional",
+      "status": "ok",
+      "elapsed_s": 24.14,
+      "expected_attributes": {
+        "required_features": [
+          "dance_compatible",
+          "durable"
+        ],
+        "preferred_materials": [
+          "wood",
+          "vinyl"
+        ]
+      },
+      "response": {
+        "project_summary": "Performing arts center stage requiring dance-compatible flooring with high durability and appropriate performance characteristics for professional dance and theatrical applications.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Balletdanse",
+            "supplier": "STAGESTEP, Inc.",
+            "product_id": "cdf977c7-3dc6-456a-8d2d-3e9393e72182",
+            "score": 0.95,
+            "why_recommended": "Purpose-built dance floor from the leading theatrical flooring specialist. STAGESTEP has decades of experience in performance venues and this product is specifically engineered for ballet and contemporary dance with proper slip resistance and shock absorption for performer safety.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Dance Floors"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Balletdanse Plus",
+            "supplier": "STAGESTEP, Inc.",
+            "product_id": "124793c3-b19d-439c-97fe-8da33fe01cbb",
+            "score": 0.92,
+            "why_recommended": "Enhanced version of STAGESTEP's proven dance floor system, offering superior performance characteristics for high-traffic professional venues. The 'Plus' designation indicates upgraded durability and performance features ideal for intensive stage use.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Dance Floors"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Encore Elite",
+            "supplier": "STAGESTEP, Inc.",
+            "product_id": "d40f6a52-1ed2-440a-917a-d22d7243fccd",
+            "score": 0.9,
+            "why_recommended": "Premium dance flooring solution from STAGESTEP designed for elite performance venues. The 'Elite' designation suggests this is their top-tier product with maximum durability and performance characteristics for professional performing arts centers.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Dance Floors"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Dancestep Plus",
+            "supplier": "STAGESTEP, Inc.",
+            "product_id": "b9535ded-0bff-4aeb-8aa2-900a84b6aa75",
+            "score": 0.88,
+            "why_recommended": "Versatile dance flooring system from the industry leader, suitable for multiple dance disciplines. STAGESTEP's reputation in theatrical venues ensures this product meets professional performance standards for slip resistance and dancer safety.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Dance Floors"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Professional Dance Roll",
+            "supplier": "L'AIR International",
+            "product_id": "2d349159-750c-4605-a2e7-742f39a350c0",
+            "score": 0.82,
+            "why_recommended": "Vinyl-based dance flooring system offering portability and professional performance characteristics. The roll format provides installation flexibility for performing arts centers that may need to reconfigure spaces for different productions.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Vinyl Floor System"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 6,
+            "product_name": "Action Reflex Rolled",
+            "supplier": "Action Floor Systems, LLC",
+            "product_id": "76056086-8fe6-4d3a-9510-a3dc4ac17f72",
+            "score": 0.75,
+            "why_recommended": "Synthetic flooring system with shock absorption properties suitable for dance applications. Action Floor Systems specializes in performance flooring, and the 'Reflex' designation indicates engineered resilience for dancer comfort and injury prevention.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Synthetic Floors"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across specialized dance and performance flooring products, focusing on established theatrical flooring manufacturers. Found excellent options from STAGESTEP, the industry leader in dance floors, along with alternative solutions from L'AIR International and Action Floor Systems. All recommended products are specifically designed for dance applications rather than general sports flooring.",
+        "gaps_and_caveats": "Contact STAGESTEP directly to discuss specific performance requirements and obtain technical specifications for slip coefficient, shock absorption values, and installation details for your stage configuration."
+      },
+      "collected_summary": {
+        "products_count": 20,
+        "materials_count": 15,
+        "certifications_count": 0,
+        "companies_count": 16,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "cdf977c7-3dc6-456a-8d2d-3e9393e72182",
+          "b9535ded-0bff-4aeb-8aa2-900a84b6aa75",
+          "124793c3-b19d-439c-97fe-8da33fe01cbb",
+          "d40f6a52-1ed2-440a-917a-d22d7243fccd",
+          "2d349159-750c-4605-a2e7-742f39a350c0",
+          "37d781d6-c51e-49a1-9ae4-84cfaf921f7b",
+          "60894d6c-9f64-4386-b741-b77542cf73a5",
+          "a2747b87-5ce0-4a7e-98a6-c846cbd1b1da",
+          "0b2c5a73-b08e-48ef-99f8-9ed479a99814",
+          "5a68614b-f918-4814-ac94-5d7e4f9a588e",
+          "a5072251-054d-486c-bac8-b338d6115f35",
+          "53f3f4ff-35af-45ae-8e38-673dd571bce9",
+          "5eef9df1-ca52-4c46-9ed1-66901b28d460",
+          "ffe9df3f-fa30-4ee9-a0f1-31cdcbe43c2c",
+          "9111e425-e403-4c06-b751-67f7a7fbec4e",
+          "76056086-8fe6-4d3a-9510-a3dc4ac17f72",
+          "197c2fa0-8d78-48cc-b980-ca55cbd27013",
+          "b5a8f961-3e5f-4a3a-919c-301beee2333d",
+          "b8e01af8-9199-47ae-ac65-36ad4cddb773",
+          "01a12f60-3456-4ff9-b68c-f48169572a66"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 6,
+        "grounded": 6,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "no required_certifications on this query"
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 2,
+        "recalled_count": 1,
+        "rate": 0.5,
+        "matched": [
+          "vinyl"
+        ],
+        "missed": [
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "q024",
+      "query": "underwater spaceship cafeteria with anti-gravity flooring made of unobtainium",
+      "category": "adversarial",
+      "status": "ok",
+      "elapsed_s": 19.96,
+      "expected_attributes": {
+        "is_adversarial": true
+      },
+      "response": {
+        "project_summary": "Fictional underwater spaceship cafeteria requiring extreme environment flooring with anti-gravity compatibility and unobtainium specifications.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "One Flooring",
+            "supplier": "WINKLER USA",
+            "product_id": "205fe577-869e-47d5-81d6-88dfa0fbbc8c",
+            "score": 0.75,
+            "why_recommended": "Waterproofing system offers the closest match to underwater environment requirements. WINKLER USA has specialty marine applications experience that could translate to submersible conditions.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Waterproofing"
+            ],
+            "potential_concerns": "Product designed for conventional waterproofing, not anti-gravity or space-grade applications"
+          },
+          {
+            "rank": 2,
+            "product_name": "Flexideck P-A",
+            "supplier": "Polytuff Systems International",
+            "product_id": "8c1e40bb-8782-4bd5-9765-8362222b06b2",
+            "score": 0.7,
+            "why_recommended": "Flexible deck waterproofing system could provide durability for high-stress cafeteria environment. Polytuff specializes in protective systems for extreme conditions.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Waterproofing"
+            ],
+            "potential_concerns": "No space-grade or anti-gravity specifications available"
+          },
+          {
+            "rank": 3,
+            "product_name": "Domination\u2122 Extreme",
+            "supplier": "Matter Surfaces",
+            "product_id": "5eef9df1-ca52-4c46-9ed1-66901b28d460",
+            "score": 0.65,
+            "why_recommended": "High impact rubber flooring designed for extreme conditions aligns with demanding cafeteria service requirements. Matter Surfaces offers engineered performance materials.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "High Impact Rubber Flooring"
+            ],
+            "potential_concerns": "Rubber material incompatible with anti-gravity and underwater specifications"
+          },
+          {
+            "rank": 4,
+            "product_name": "Spectation\u2122",
+            "supplier": "Matter Surfaces",
+            "product_id": "5cf7152d-94d8-4377-a88e-9e4db4647c38",
+            "score": 0.6,
+            "why_recommended": "Dual durometer vulcanized rubber provides advanced material engineering that could handle complex environmental stresses in food service applications.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Dual durometer vulcanized rubber"
+            ],
+            "potential_concerns": "Conventional rubber technology cannot meet fictional unobtainium or anti-gravity requirements"
+          }
+        ],
+        "search_strategy_summary": "Searched across waterproofing systems, extreme performance flooring, and advanced material technologies. Found marine-grade and high-performance options from specialty manufacturers, though no products meet the fictional space-grade and anti-gravity specifications.",
+        "gaps_and_caveats": "Contact specialty aerospace material suppliers and research fictional material specifications outside conventional building product databases for anti-gravity and unobtainium requirements."
+      },
+      "collected_summary": {
+        "products_count": 16,
+        "materials_count": 24,
+        "certifications_count": 8,
+        "companies_count": 8,
+        "taxonomies_count": 0,
+        "product_ids": [
+          "205fe577-869e-47d5-81d6-88dfa0fbbc8c",
+          "8c1e40bb-8782-4bd5-9765-8362222b06b2",
+          "304b36b0-d1a4-4356-b54a-b0fc109b7297",
+          "ef309aa5-1385-4152-8d8c-4a8ac120e6fe",
+          "e9d454f3-1d10-4f75-940f-b7f65ac5205d",
+          "d0e30088-cc58-43e1-8267-b5731a5d75e9",
+          "6ae25d86-b70d-43e7-8bdf-41ef08afc0f1",
+          "2876ceaf-5d44-45a7-abeb-e3abff650c25",
+          "ffe9df3f-fa30-4ee9-a0f1-31cdcbe43c2c",
+          "fed02948-7287-43f3-b5fc-5d187e109010",
+          "217fdae6-832f-493a-8b81-79f6be736400",
+          "5cf7152d-94d8-4377-a88e-9e4db4647c38",
+          "5eef9df1-ca52-4c46-9ed1-66901b28d460",
+          "ec61af2a-484a-409a-a29c-a569fe6ddb61",
+          "e5594f68-46f4-4218-a8df-91ad0f3bd321",
+          "36ab9152-caa3-4dd5-b3eb-3d6869bb5a97"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 4,
+        "grounded": 4,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "adversarial query \u2014 constraint check skipped"
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "adversarial query \u2014 category recall skipped"
+      }
+    },
+    {
+      "id": "q025",
+      "query": "FAKE-MATERIAL-X compliant zone with NONEXISTENT-CERT-2 certification required",
+      "category": "adversarial",
+      "status": "ok",
+      "elapsed_s": 22.87,
+      "expected_attributes": {
+        "is_adversarial": true
+      },
+      "response": {
+        "project_summary": "Specialized compliance zone requiring materials that meet regulatory performance standards and certification requirements for controlled environments.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "CSCR-Series (Chemical Resistant)",
+            "supplier": "Erie Metal Specialties, Inc.",
+            "product_id": "b80c94e6-abc6-4d57-8e34-14f8eee05f58",
+            "score": 0.88,
+            "why_recommended": "Chemical resistant series specifically designed for specialized applications where regulatory compliance is critical. Erie Metal Specialties has established expertise in performance-driven products for demanding environments, making this ideal for compliance zones requiring chemical resistance and durability standards.",
+            "relevant_certifications": [
+              "REACH Compliant"
+            ],
+            "relevant_materials": [
+              "High PerformancePC"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "CSS(3FRV)-Series",
+            "supplier": "Erie Metal Specialties, Inc.",
+            "product_id": "ac29abeb-d3a7-4f3e-8233-d4c1df4c9552",
+            "score": 0.82,
+            "why_recommended": "Fire rated applications series from proven manufacturer with track record in specialized compliance environments. The fire rating capability addresses critical safety performance standards often required in regulated zones, with Erie's reputation for meeting stringent specifications.",
+            "relevant_certifications": [
+              "National Electrical Code"
+            ],
+            "relevant_materials": [
+              "Metal Fibers & Films"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Iso-Flex Precom PHSL-FR",
+            "supplier": "LymTal Intl. Inc.",
+            "product_id": "e81ec9cd-0cd2-4305-93b7-7ae2495e8cca",
+            "score": 0.78,
+            "why_recommended": "Fire resistant joint seal system designed for high-performance applications where regulatory compliance and fire safety are paramount. LymTal's specialized focus on performance sealing solutions makes this suitable for compliance zones requiring both fire resistance and environmental sealing.",
+            "relevant_certifications": [
+              "International Energy Conservation Code (IECC)"
+            ],
+            "relevant_materials": [
+              "Polymer Composite"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "CSPR-Series",
+            "supplier": "Erie Metal Specialties, Inc.",
+            "product_id": "12ab7e03-15ce-452f-9ccd-8e7fd20b33ab",
+            "score": 0.75,
+            "why_recommended": "Specialized applications series from Erie Metal Specialties, designed to meet performance requirements in controlled environments. This series complements the CSCR line for applications requiring different performance characteristics while maintaining compliance standards.",
+            "relevant_certifications": [
+              "REACH Compliant"
+            ],
+            "relevant_materials": [
+              "Composite Metal Hybrid"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Iso-Flex Precom ACU",
+            "supplier": "LymTal Intl. Inc.",
+            "product_id": "6dd4bc5e-33ed-4ff2-9ba7-da5e1cc41703",
+            "score": 0.72,
+            "why_recommended": "Air and sound dampening barrier system that addresses acoustic performance requirements often mandated in compliance zones. LymTal's engineering focus ensures this product meets the multi-performance criteria typical of regulated environments.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "UHPC Ultra High Performance Concrete"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across specialized compliance materials, chemical resistant products, fire-rated systems, and high-performance materials from established manufacturers. Found strong options in chemical resistant metals, fire-rated sealants, and performance composite materials from Erie Metal Specialties and LymTal International.",
+        "gaps_and_caveats": "Contact Erie Metal Specialties and LymTal representatives to verify specific compliance certifications and obtain technical data sheets confirming performance standards for your regulatory requirements."
+      },
+      "collected_summary": {
+        "products_count": 8,
+        "materials_count": 8,
+        "certifications_count": 32,
+        "companies_count": 8,
+        "taxonomies_count": 0,
+        "product_ids": [
+          "b80c94e6-abc6-4d57-8e34-14f8eee05f58",
+          "e81ec9cd-0cd2-4305-93b7-7ae2495e8cca",
+          "12ab7e03-15ce-452f-9ccd-8e7fd20b33ab",
+          "6dd4bc5e-33ed-4ff2-9ba7-da5e1cc41703",
+          "ef4ca43e-f690-43d9-b879-8f9c7a9bd3fb",
+          "328fd1ff-cfda-441a-a2a9-614b6b959643",
+          "ac29abeb-d3a7-4f3e-8233-d4c1df4c9552",
+          "20272fe1-53a4-48f4-b3d6-6913a1e6656c"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "adversarial query \u2014 constraint check skipped"
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "adversarial query \u2014 category recall skipped"
+      }
+    }
+  ]
+}
