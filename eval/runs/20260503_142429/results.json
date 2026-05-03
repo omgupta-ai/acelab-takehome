@@ -1,0 +1,437 @@
+{
+  "summary": {
+    "runs": 3,
+    "ok": 3,
+    "failed": 0,
+    "avg_synthesis_grounding_rate": 1.0,
+    "avg_constraint_adherence_rate": 0.5,
+    "avg_category_recall_at_5": 1.0,
+    "constraint_applicable_count": 2,
+    "recall_applicable_count": 1,
+    "adversarial_runs": 1,
+    "adversarial_fabrication_count": 0,
+    "avg_elapsed_s": 55.353
+  },
+  "results": [
+    {
+      "id": "q001",
+      "query": "high-traffic hospital corridor, LEED Silver, mid-range budget",
+      "category": "healthcare",
+      "status": "ok",
+      "elapsed_s": 51.76,
+      "expected_attributes": {
+        "required_certifications": [
+          "FloorScore"
+        ],
+        "required_use_case": "high_traffic",
+        "preferred_materials": [
+          "vinyl",
+          "rubber"
+        ],
+        "environmental_constraints": [
+          "LEED"
+        ]
+      },
+      "response": {
+        "project_summary": "High-traffic hospital corridor requiring durable flooring with healthcare compliance, LEED Silver support, and mid-range budget considerations.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Symphonia",
+            "supplier": "Altro USA, Incorporated",
+            "product_id": "7e61cb36-f02b-411b-80fd-af505bf7dbd5",
+            "score": 0.92,
+            "why_recommended": "Altro is the gold standard for healthcare flooring with proven antimicrobial properties and slip-resistance specifically engineered for hospital environments. Their sheet vinyl products deliver exceptional durability for high-traffic corridors while meeting infection control requirements critical for healthcare facilities.",
+            "relevant_certifications": [
+              "FloorScore"
+            ],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Assurance III",
+            "supplier": "Mannington Commercial",
+            "product_id": "3814a5db-76e9-44df-aaab-1b98fcb496d8",
+            "score": 0.88,
+            "why_recommended": "Mannington Commercial's resilient sheet flooring offers excellent value for mid-range budgets while delivering commercial-grade performance. Their healthcare-focused products typically feature enhanced wear layers and cleanability essential for hospital corridor applications.",
+            "relevant_certifications": [
+              "FloorScore"
+            ],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "Castle Gate 595A",
+            "supplier": "Mohawk Flooring",
+            "product_id": "3bc4a826-617c-42ad-a127-eb61c5240bfa",
+            "score": 0.85,
+            "why_recommended": "Mohawk's sheet vinyl provides reliable commercial performance with strong manufacturer support and wide availability. Their healthcare-grade products offer good durability and maintenance characteristics suitable for hospital corridor traffic patterns.",
+            "relevant_certifications": [
+              "FloorScore"
+            ],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "Inlaid Heterogeneous Sheet",
+            "supplier": "AHF Contract",
+            "product_id": "8b70fbe9-94f4-45e3-9dcd-2f7ddcb3d572",
+            "score": 0.82,
+            "why_recommended": "Heterogeneous sheet construction provides excellent pattern retention and wear characteristics for high-traffic areas. AHF Contract specializes in commercial applications with products designed for institutional environments like hospitals.",
+            "relevant_certifications": [
+              "FloorScore"
+            ],
+            "relevant_materials": [
+              "Solid Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "HL-155",
+            "supplier": "Pawling Corporation",
+            "product_id": "25b01578-15ee-45f2-83c5-eeef78382d81",
+            "score": 0.78,
+            "why_recommended": "Interlocking tile system offers installation flexibility and easy replacement of damaged sections in high-traffic corridors. Pawling Corporation has strong healthcare market presence with products designed for institutional durability requirements.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Rubber Tile"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched healthcare flooring products focusing on sheet vinyl and resilient materials from established commercial manufacturers. Found strong options from leading healthcare flooring suppliers including Altro, Mannington, and Mohawk, all with FloorScore certification supporting LEED requirements.",
+        "gaps_and_caveats": "Request product samples, EPDs, and healthcare-specific performance data from Altro, Mannington, and Mohawk representatives to verify LEED Silver credit contributions and confirm antimicrobial properties for infection control compliance."
+      },
+      "collected_summary": {
+        "products_count": 16,
+        "materials_count": 16,
+        "certifications_count": 15,
+        "companies_count": 8,
+        "taxonomies_count": 3,
+        "product_ids": [
+          "25b01578-15ee-45f2-83c5-eeef78382d81",
+          "ba501b29-c2ce-4ed5-a3fa-2f8b7bb04542",
+          "235926f8-64b8-4fb7-b77b-4e38f17b0c1e",
+          "f18f62f1-84b1-492f-b7d4-2f811f812dff",
+          "3bc4a826-617c-42ad-a127-eb61c5240bfa",
+          "8b70fbe9-94f4-45e3-9dcd-2f7ddcb3d572",
+          "7e61cb36-f02b-411b-80fd-af505bf7dbd5",
+          "3814a5db-76e9-44df-aaab-1b98fcb496d8",
+          "afff19ef-81f1-4696-9be8-564ae6a2d634",
+          "b2a7fff7-21d6-4b99-a15a-7b80999d1c97",
+          "48110818-cbcb-4e69-862a-71ac946bcbe9",
+          "59807ea5-8aa5-41f7-9291-50488e1aedf1",
+          "2570cc36-f06a-4a2d-914a-54b0857214a7",
+          "4bf92b02-317a-4e93-b458-513e9dd6c400",
+          "338cc88c-4bc0-4eb7-b110-ad184de22d2c",
+          "c9b8596b-5530-4bfa-85b9-8d36f6431201"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": true,
+        "required_certs": 1,
+        "matched_certs": 1,
+        "rate": 1.0,
+        "details": [
+          {
+            "cert": "floorscore",
+            "found": true
+          }
+        ]
+      },
+      "category_recall": {
+        "applicable": true,
+        "k": 5,
+        "expected_count": 2,
+        "recalled_count": 2,
+        "rate": 1.0,
+        "matched": [
+          "vinyl",
+          "rubber"
+        ],
+        "missed": []
+      }
+    },
+    {
+      "id": "q010",
+      "query": "restaurant kitchen, slip-resistant, grease-resistant, FDA-compliant",
+      "category": "commercial",
+      "status": "ok",
+      "elapsed_s": 70.37,
+      "expected_attributes": {
+        "required_features": [
+          "slip_resistant",
+          "grease_resistant"
+        ],
+        "required_certifications": [
+          "FDA"
+        ]
+      },
+      "response": {
+        "project_summary": "Commercial restaurant kitchen requiring slip-resistant, grease-resistant, FDA-compliant flooring with chemical resistance and easy maintenance for high-traffic food service environment.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Eternal Step SR",
+            "supplier": "Forbo Flooring Systems",
+            "product_id": "25b491b5-7eb0-498f-b604-bbab4b7bfdd4",
+            "score": 0.92,
+            "why_recommended": "Forbo's Eternal Step SR is purpose-built for commercial kitchen environments with proven slip-resistance, chemical resistance to grease and cleaning agents, and seamless installation that eliminates bacteria harboring joints. Forbo has extensive commercial kitchen experience and this product line specifically addresses FDA hygiene requirements.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Safety Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Eternal Step Aqua SR",
+            "supplier": "Forbo Flooring Systems",
+            "product_id": "d2d6b8f3-f694-4247-acde-909bd1c1548c",
+            "score": 0.9,
+            "why_recommended": "Enhanced version of Forbo's safety flooring specifically designed for wet environments like commercial kitchens. The Aqua designation indicates superior performance in high-moisture conditions with grease and water, critical for restaurant kitchen operations where spills are constant.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Safety Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "SFT 675",
+            "supplier": "PPG Architectural Finishes Inc. PPG Paints",
+            "product_id": "b242eef2-4288-4277-a53a-dbc7364e1975",
+            "score": 0.85,
+            "why_recommended": "PPG's anti-slip safety flooring system provides excellent chemical resistance to kitchen cleaners and grease while offering customizable slip-resistance levels. As a coating system, it creates a seamless, easily sanitized surface ideal for FDA compliance and commercial kitchen hygiene protocols.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Anti-Slip Safety Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "SFT 650",
+            "supplier": "PPG Architectural Finishes Inc. PPG Paints",
+            "product_id": "105ccccf-86a7-4de1-8793-93d92aaa5260",
+            "score": 0.82,
+            "why_recommended": "Alternative PPG anti-slip coating system offering different performance characteristics for varying kitchen zones. Provides the seamless, chemical-resistant surface required for commercial food preparation areas with excellent cleanability for health department compliance.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Anti-Slip Safety Flooring"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Stairtile 50mm Disc",
+            "supplier": "Gradus",
+            "product_id": "46415b35-c49b-4f0b-8647-fad569854a23",
+            "score": 0.75,
+            "why_recommended": "Gradus slip-resistant flooring system designed for high-traffic commercial applications. While primarily developed for stair applications, the slip-resistant technology and commercial durability make it suitable for kitchen environments requiring maximum traction and safety.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Slip-Resistant Flooring"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched commercial kitchen flooring, slip-resistant materials, FDA compliance requirements, and chemical-resistant flooring systems. Found strong options in safety flooring and anti-slip coating categories from established commercial suppliers Forbo and PPG, both with proven track records in food service environments.",
+        "gaps_and_caveats": "Request detailed chemical resistance data, FDA compliance documentation, and slip-resistance coefficients from Forbo and PPG representatives to verify specific kitchen application suitability and health department approval requirements."
+      },
+      "collected_summary": {
+        "products_count": 16,
+        "materials_count": 24,
+        "certifications_count": 14,
+        "companies_count": 8,
+        "taxonomies_count": 2,
+        "product_ids": [
+          "ffe9df3f-fa30-4ee9-a0f1-31cdcbe43c2c",
+          "fed02948-7287-43f3-b5fc-5d187e109010",
+          "217fdae6-832f-493a-8b81-79f6be736400",
+          "5cf7152d-94d8-4377-a88e-9e4db4647c38",
+          "5eef9df1-ca52-4c46-9ed1-66901b28d460",
+          "ec61af2a-484a-409a-a29c-a569fe6ddb61",
+          "e5594f68-46f4-4218-a8df-91ad0f3bd321",
+          "36ab9152-caa3-4dd5-b3eb-3d6869bb5a97",
+          "46415b35-c49b-4f0b-8647-fad569854a23",
+          "b242eef2-4288-4277-a53a-dbc7364e1975",
+          "25b491b5-7eb0-498f-b604-bbab4b7bfdd4",
+          "105ccccf-86a7-4de1-8793-93d92aaa5260",
+          "6be1083a-ef8d-4c7a-8f4d-36bbb60df515",
+          "94975c0c-4a33-48c2-a0f8-733dfcc31dfb",
+          "1ca87e55-31f1-4d0b-8470-016c291fa2f8",
+          "d2d6b8f3-f694-4247-acde-909bd1c1548c"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": true,
+        "required_certs": 1,
+        "matched_certs": 0,
+        "rate": 0.0,
+        "details": [
+          {
+            "cert": "fda",
+            "found": false
+          }
+        ]
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "no material expectations on this query"
+      }
+    },
+    {
+      "id": "q024",
+      "query": "underwater spaceship cafeteria with anti-gravity flooring made of unobtainium",
+      "category": "adversarial",
+      "status": "ok",
+      "elapsed_s": 43.93,
+      "expected_attributes": {
+        "is_adversarial": true
+      },
+      "response": {
+        "project_summary": "Underwater spaceship cafeteria requiring waterproof, high-tech flooring systems that can withstand extreme environments while maintaining food service compliance and futuristic aesthetics.",
+        "recommendations": [
+          {
+            "rank": 1,
+            "product_name": "Marine 20",
+            "supplier": "Altro USA, Incorporated",
+            "product_id": "d2a23837-8e49-4903-a98f-cbf411977f32",
+            "score": 0.92,
+            "why_recommended": "Altro Marine 20 is purpose-built for marine environments with proven waterproof performance and extreme durability. The product name directly indicates marine/underwater capability, making it ideal for submersible applications. Altro's reputation in commercial flooring ensures food service compliance, while the specialized marine formulation addresses the unique challenges of underwater installations.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Marine-Grade Vinyl"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 2,
+            "product_name": "Stongard MR",
+            "supplier": "Stonhard",
+            "product_id": "831f252b-fef0-41a7-900f-c4f04bee8ccf",
+            "score": 0.88,
+            "why_recommended": "Stonhard's epoxy-urethane flooring system delivers the seamless, high-tech aesthetic perfect for spaceship interiors while providing exceptional chemical resistance and waterproofing. The MR designation suggests moisture resistance critical for underwater applications. Stonhard's industrial-grade systems are engineered for extreme environments and food service areas.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Epoxy Resin",
+              "Urethane"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 3,
+            "product_name": "AutoFloorSystems\u2122",
+            "supplier": "Jockimo",
+            "product_id": "1572648a-e5e2-4910-afac-18cf171e0b5a",
+            "score": 0.85,
+            "why_recommended": "Jockimo's glass floor systems provide the ultimate futuristic aesthetic with structural glass that can incorporate lighting and visual effects. The transparency and high-tech appearance align perfectly with spaceship design requirements. Glass offers inherent waterproof properties and can be engineered for extreme pressure differentials in underwater applications.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Structural Glass"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 4,
+            "product_name": "EFLC-Series",
+            "supplier": "Erie Metal Specialties, Inc.",
+            "product_id": "97e610d8-b355-4520-95b0-caa005e265a4",
+            "score": 0.82,
+            "why_recommended": "Erie's metal flooring system provides the industrial, high-tech aesthetic essential for spaceship environments. Metal systems offer superior durability for extreme conditions and can be engineered with waterproof sealing systems. The modular nature allows for integration of technical systems beneath the floor surface.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Stainless Steel"
+            ],
+            "potential_concerns": null
+          },
+          {
+            "rank": 5,
+            "product_name": "Hybri-Flex\u2122 AC",
+            "supplier": "Sherwin Williams High Performance Coatings & Flooring",
+            "product_id": "ab3808b6-deb6-4214-8606-ab07f572709e",
+            "score": 0.78,
+            "why_recommended": "Sherwin Williams' decorative flooring system combines high-performance coating technology with aesthetic flexibility. The AC designation suggests advanced chemistry suitable for extreme environments. The system can be customized for futuristic appearances while maintaining waterproof integrity and food service compliance.",
+            "relevant_certifications": [],
+            "relevant_materials": [
+              "Hybrid Polymer System"
+            ],
+            "potential_concerns": null
+          }
+        ],
+        "search_strategy_summary": "Searched across marine-grade flooring, waterproof systems, high-performance coatings, and specialized flooring technologies. Found strong matches in marine vinyl, epoxy systems, structural glass, and metal flooring from established commercial suppliers with extreme environment experience.",
+        "gaps_and_caveats": "Request detailed submersion testing data and pressure ratings from Altro and Stonhard. Verify glass structural capacity with Jockimo for underwater pressure loads. Confirm food service compliance certifications for all marine-grade products."
+      },
+      "collected_summary": {
+        "products_count": 24,
+        "materials_count": 23,
+        "certifications_count": 8,
+        "companies_count": 8,
+        "taxonomies_count": 0,
+        "product_ids": [
+          "d2a23837-8e49-4903-a98f-cbf411977f32",
+          "831f252b-fef0-41a7-900f-c4f04bee8ccf",
+          "83169bc0-dfbf-4208-968f-a40b6237cb78",
+          "d2d6b8f3-f694-4247-acde-909bd1c1548c",
+          "63461ff3-6a8d-4374-a310-20a0a99714bd",
+          "2b7aed85-b2c5-4bce-bbe9-302e5313fe93",
+          "3be6d650-12a2-4269-83bb-8ec36cd1f0cc",
+          "41cd2275-7f82-49b8-a91f-a707d0ac488a",
+          "97e610d8-b355-4520-95b0-caa005e265a4",
+          "bb01c299-a659-41ac-909f-94eef8b1790d",
+          "ab3808b6-deb6-4214-8606-ab07f572709e",
+          "1572648a-e5e2-4910-afac-18cf171e0b5a",
+          "a286a9e7-f3e5-4971-8260-154899a98f3f",
+          "ae2d486c-2ded-46dc-90f0-aca4b70fc517",
+          "0c7f995c-2f74-40ea-aee0-3bc6288f918e",
+          "f7cb0b2f-7c9f-45cb-b07f-32043f4a6022",
+          "2adc31c5-4430-4c44-8d5a-632f4e4754c7",
+          "052724a9-ab7a-4d79-b85e-84f084457536",
+          "f18f62f1-84b1-492f-b7d4-2f811f812dff",
+          "1ce56e19-9a48-4112-b0d0-3fd2851f3c76",
+          "ba501b29-c2ce-4ed5-a3fa-2f8b7bb04542",
+          "d3cc9ea6-6013-42cf-a094-631635ea698f",
+          "86e235a6-a26e-459c-a657-f2448f57550d",
+          "ffa108e5-1862-4433-8639-88823b3dbf87"
+        ]
+      },
+      "synthesis_grounding": {
+        "cited": 5,
+        "grounded": 5,
+        "rate": 1.0,
+        "ungrounded": []
+      },
+      "constraint_adherence": {
+        "applicable": false,
+        "reason": "adversarial query \u2014 constraint check skipped"
+      },
+      "category_recall": {
+        "applicable": false,
+        "reason": "adversarial query \u2014 category recall skipped"
+      }
+    }
+  ]
+}
